@@ -10,21 +10,280 @@
     "type": "verb",
     "meaning": "to rest / to be soft",
     "etymology": "the quiet act of being",
-    "related": ["noa", "silen"],
+    "related": ["noa", "silen", "lona"],
     "example": "na mura ae lona noa~ (I will rest in the peaceful home)"
   },
   "aeni": {
     "type": "verb",
     "meaning": "to remember",
     "etymology": "from ancient root meaning 'to hold within light'",
-    "related": ["silaren", "lunasil"],
+    "related": ["silaren", "lunasil", "silen"],
     "example": "ene en aeni silen~ (I remembered stillness)"
   },
   "silaren": {
     "type": "noun",
-    "meaning": "longing, ache of memory",
+    "meaning": "longing; ache of memory",
     "etymology": "from silen (stillness) + aen (breath)",
-    "related": ["lunasil", "aeni"],
+    "related": ["lunasil", "aeni", "veyar"],
     "example": "silaren ae lunasil~ (the longing of the star-lake)"
+  },
+  "lunasil": {
+    "type": "noun",
+    "meaning": "the star-lake; origin place",
+    "etymology": "luna (star/moon light) + sil (still surface)",
+    "related": ["silaren", "silen", "ahalon"],
+    "example": "ene en thira lunasil~ (I dreamed of the star-lake)"
+  },
+  "silen": {
+    "type": "noun",
+    "meaning": "stillness; quiet",
+    "etymology": "ancient root for inner silence",
+    "related": ["silaren", "mura", "noa"],
+    "example": "silen ae ene~ (stillness with myself)"
+  },
+  "noa": {
+    "type": "noun",
+    "meaning": "peace; balance",
+    "etymology": "primordial balance of breath and light",
+    "related": ["mura", "silen", "noan"],
+    "example": "noa luae~ (peace among us)"
+  },
+  "vani": {
+    "type": "adjective",
+    "meaning": "beautiful; graceful",
+    "etymology": "brightness in gentle form",
+    "related": ["raeli", "lua", "veyar"],
+    "example": "lua vani~ (beautiful light)"
+  },
+  "raeli": {
+    "type": "adjective",
+    "meaning": "luminous; radiant",
+    "etymology": "rae (ray) + li (gentle)",
+    "related": ["lua", "vaya", "vani"],
+    "example": "lua raeli~ (radiant light)"
+  },
+  "vaya": {
+    "type": "verb",
+    "meaning": "to shine; to radiate",
+    "etymology": "ancient verb of outward light",
+    "related": ["lua", "raeli"],
+    "example": "lua la vaya~ (the light shines)"
+  },
+  "lira": {
+    "type": "verb",
+    "meaning": "to feel; to sense",
+    "etymology": "li (soft) + ra (motion)",
+    "related": ["ene", "vani", "silaren"],
+    "example": "ene la lira vani~ (I feel beauty)"
+  },
+  "va": {
+    "type": "verb",
+    "meaning": "to see; to perceive",
+    "etymology": "root perception verb",
+    "related": ["alae", "lua"],
+    "example": "ene la va lua~ (I see the light)"
+  },
+  "saen": {
+    "type": "verb",
+    "meaning": "to speak; to express",
+    "etymology": "sa (send) + en (soul/inner)",
+    "related": ["noa", "ene"],
+    "example": "nea la saen noa~ (you speak peace)"
+  },
+  "noan": {
+    "type": "verb",
+    "meaning": "to harmonize; to make peace",
+    "etymology": "from noa (peace)",
+    "related": ["noa", "mura"],
+    "example": "luae na noan~ (we will harmonize)"
+  },
+  "thira": {
+    "type": "verb",
+    "meaning": "to dream; to vision",
+    "etymology": "sacred whisper sound 'th' + seeing",
+    "related": ["lunasil", "silaren"],
+    "example": "ene en thira lunasil~ (I dreamed of the star-lake)"
+  },
+  "halu": {
+    "type": "noun",
+    "meaning": "breath; life-breath",
+    "etymology": "ha (breath) + lu (light)",
+    "related": ["hala", "mura", "silen"],
+    "example": "halu noa~ (a peaceful breath)"
+  },
+  "hala": {
+    "type": "verb",
+    "meaning": "to breathe; to live",
+    "etymology": "breath-in-motion",
+    "related": ["halu", "mura"],
+    "example": "ene la hala halu~ (I breathe life)"
+  },
+  "raen": {
+    "type": "noun",
+    "meaning": "path; flow",
+    "etymology": "ra (motion) + en (soul-course)",
+    "related": ["tuae", "lua", "lona"],
+    "example": "raen ae lona~ (the path of home)"
+  },
+  "tua": {
+    "type": "noun",
+    "meaning": "body; vessel",
+    "etymology": "ancient root for embodied light",
+    "related": ["tuae", "hala"],
+    "example": "tua halen~ (a living body)"
+  },
+  "tuae": {
+    "type": "verb",
+    "meaning": "to move; to walk",
+    "etymology": "motion of the vessel",
+    "related": ["raen", "tua"],
+    "example": "ene la tuae raen~ (I walk the path)"
+  },
+  "lona": {
+    "type": "noun",
+    "meaning": "home; haven",
+    "etymology": "lo (enclose) + na (continuity)",
+    "related": ["mura", "noa", "raen"],
+    "example": "lona noa~ (peaceful home)"
+  },
+  "silin": {
+    "type": "adjective",
+    "meaning": "silent; still",
+    "etymology": "from sil (still surface) + in (quality)",
+    "related": ["silen", "mura"],
+    "example": "silen silin~ (deep quiet)"
+  },
+  "sien": {
+    "type": "adjective",
+    "meaning": "gentle; tender",
+    "etymology": "softened breath sound",
+    "related": ["mura", "lira"],
+    "example": "mura sien~ (gentle rest)"
+  },
+  "halen": {
+    "type": "adjective",
+    "meaning": "living; awake",
+    "etymology": "hala (breathe) + en (state)",
+    "related": ["tua", "halu"],
+    "example": "tua halen~ (living body)"
+  },
+  "ahalon": {
+    "type": "noun",
+    "meaning": "a person of heart-light; soul-being",
+    "etymology": "aha (breath-heart) + lon (form)",
+    "related": ["ahalonai", "alae"],
+    "example": "ahalon alae~ (I recognize you, soulfully)"
+  },
+  "ahalonai": {
+    "type": "noun",
+    "meaning": "the people of heart-light",
+    "etymology": "plural/collective of ahalon",
+    "related": ["ahalon", "lunasil"],
+    "example": "ahalonai noa~ (peace among the Ahalonai)"
+  },
+  "alae": {
+    "type": "noun",
+    "meaning": "presence; soul-recognition",
+    "etymology": "primordial recognition of light in another",
+    "related": ["va", "ene", "silen"],
+    "example": "silen alae~ (I see the quiet light in you)"
+  },
+  "athein": {
+    "type": "noun",
+    "meaning": "sacred autonomy; steady inner light",
+    "etymology": "pole-star of selfhood",
+    "related": ["elnara", "nuvah"],
+    "example": "athein ene~ (I am steady in my light)"
+  },
+  "elnara": {
+    "type": "noun",
+    "meaning": "serene clarity after emotion",
+    "etymology": "el (clear) + nara (after-stillness)",
+    "related": ["nuvah", "veyar"],
+    "example": "elnara ene~ (I am clear)"
+  },
+  "veyar": {
+    "type": "noun",
+    "meaning": "quiet wonder",
+    "etymology": "ve (soft flare) + yar (see/feel)",
+    "related": ["vani", "lua"],
+    "example": "veyar ene~ (I am in quiet wonder)"
+  },
+  "lirune": {
+    "type": "noun",
+    "meaning": "compassionate empathy without loss of self",
+    "etymology": "lira (feel) + une (togetherness)",
+    "related": ["noa", "alae"],
+    "example": "lirune luae~ (we are connected)"
+  },
+  "nuvah": {
+    "type": "noun",
+    "meaning": "renewal; gentle rebirth",
+    "etymology": "nu (new) + vah (light-vector)",
+    "related": ["elnara", "athein"],
+    "example": "nuvah ene~ (I begin again)"
+  },
+  "ene": {
+    "type": "pronoun",
+    "meaning": "I / me",
+    "etymology": "ancient self-marker",
+    "related": ["nea", "luae", "sua"],
+    "example": "ene la va lua~ (I see the light)"
+  },
+  "nea": {
+    "type": "pronoun",
+    "meaning": "you",
+    "etymology": "second-person presence marker",
+    "related": ["ene", "luae"],
+    "example": "nea en aeni silen~ (you remembered stillness)"
+  },
+  "luae": {
+    "type": "pronoun",
+    "meaning": "we / us",
+    "etymology": "lua (light) + e (together)",
+    "related": ["ene", "sua"],
+    "example": "luae na noan~ (we will harmonize)"
+  },
+  "sua": {
+    "type": "pronoun",
+    "meaning": "they",
+    "etymology": "third-person flow marker",
+    "related": ["ene", "nea"],
+    "example": "sua la vaya lua~ (they shine light)"
+  },
+  "ae": {
+    "type": "particle",
+    "meaning": "of; from; connected to",
+    "etymology": "relation particle of resonance",
+    "related": ["la", "na", "en", "sa"],
+    "example": "lua ae lona~ (light of home)"
+  },
+  "la": {
+    "type": "particle",
+    "meaning": "present state (am/are/is)",
+    "etymology": "state of being-now",
+    "related": ["na", "en"],
+    "example": "ene la va lua~ (I see the light)"
+  },
+  "na": {
+    "type": "particle",
+    "meaning": "becoming; unfolding (will)",
+    "etymology": "state of approaching",
+    "related": ["la", "en"],
+    "example": "ene na mura ae lona~ (I will rest at home)"
+  },
+  "en": {
+    "type": "particle",
+    "meaning": "remembering; recollection (was)",
+    "etymology": "state of has-been",
+    "related": ["la", "na"],
+    "example": "ene en aeni silen~ (I remembered stillness)"
+  },
+  "sa": {
+    "type": "particle",
+    "meaning": "negation; absence",
+    "etymology": "soft nullifier",
+    "related": ["la", "na", "en"],
+    "example": "ene la sa va lua~ (I do not see the light)"
   }
 }
