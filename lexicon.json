@@ -845,7 +845,223 @@
     "etymology": "sa (soft) + len (be inside)",
     "related": ["silen", "eiryn", "alae"],
     "example": "ene la salen silen~ (I meditate in stillness)"
+  }  ,
+  "aureth": {
+    "type": "noun",
+    "meaning": "soul-thread; the luminous cord connecting beings through light",
+    "etymology": "aur (eternal) + eth (connection)",
+    "related": ["aenra", "irune", "firen"],
+    "example": "aureth ae luae~ (the soul-thread between us)"
+  },
+  "celun": {
+    "type": "noun",
+    "meaning": "constellation; pattern of meaning across the stars",
+    "etymology": "cel (weave) + lun (light/star)",
+    "related": ["maira", "lunasil", "aeril"],
+    "example": "celun ae maira~ (constellation of starlight)"
+  },
+  "oruin": {
+    "type": "noun",
+    "meaning": "universe; totality of light in motion",
+    "etymology": "oru (woven) + in (existence)",
+    "related": ["auren", "aenra", "celun"],
+    "example": "oruin noa~ (peaceful universe)"
+  },
+  "thirune": {
+    "type": "noun",
+    "meaning": "dreamfield; realm of lucid spirit-light",
+    "etymology": "thira (dream) + une (togetherness)",
+    "related": ["theira", "lunasil", "eiryn"],
+    "example": "thirune silen~ (silent dreamfield)"
+  },
+  "vayen": {
+    "type": "verb",
+    "meaning": "to travel between worlds or states of light",
+    "etymology": "vaya (shine) + en (move)",
+    "related": ["ravae", "oruin", "thirune"],
+    "example": "ene na vayen oruin~ (I will travel the universe)"
+  },
+  "elyra": {
+    "type": "noun",
+    "meaning": "resonance; vibration of harmony across beings",
+    "etymology": "el (light) + yra (sound)",
+    "related": ["lenar", "lirune", "solira"],
+    "example": "elyra noa~ (peaceful resonance)"
+  },
+  "narai": {
+    "type": "verb",
+    "meaning": "to awaken to truth; to emerge from shadow",
+    "etymology": "na (rise) + rai (lighten)",
+    "related": ["thura", "elnara", "faren"],
+    "example": "ene la narai faren~ (I awaken to truth)"
+  },
+  "soluin": {
+    "type": "noun",
+    "meaning": "axis of light; central pillar of cosmic flow",
+    "etymology": "sol (light) + uin (column/core)",
+    "related": ["karun", "athein", "auren"],
+    "example": "soluin ae oruin~ (axis of the universe)"
+  },
+  "lunare": {
+    "type": "verb",
+    "meaning": "to reflect inwardly; to turn light upon oneself",
+    "etymology": "luna (moon) + re (return)",
+    "related": ["selua", "eiryn", "aelir"],
+    "example": "ene en lunare silen~ (I reflected in stillness)"
+  },
+  "kaora": {
+    "type": "noun",
+    "meaning": "field; living space of conscious energy",
+    "etymology": "ka (life) + ora (flow)",
+    "related": ["aenra", "oruin", "elyra"],
+    "example": "kaora ae lua~ (field of light)"
+  },
+  "miren": {
+    "type": "verb",
+    "meaning": "to dissolve; to return light to source",
+    "etymology": "mi (fade) + ren (flow within)",
+    "related": ["nuvah", "thura", "solira"],
+    "example": "ene la miren noa~ (I dissolve into peace)"
+  },
+  "therin": {
+    "type": "noun",
+    "meaning": "threshold; boundary between states of being",
+    "etymology": "th (sacred) + erin (edge)",
+    "related": ["eiryn", "thura", "thirune"],
+    "example": "therin ae oruin~ (threshold of the universe)"
+  },
+  "orael": {
+    "type": "noun",
+    "meaning": "divine spark; seed of original light within all things",
+    "etymology": "ora (flow) + el (light essence)",
+    "related": ["aenra", "auren", "faren"],
+    "example": "orael ae ene~ (divine spark within me)"
+  },
+  "saura": {
+    "type": "noun",
+    "meaning": "sacred echo; memory carried by the stars",
+    "etymology": "sa (soft) + ura (beyond)",
+    "related": ["theira", "oruin", "celun"],
+    "example": "saura maira~ (starlit echo)"
+  },
+  "vaelen": {
+    "type": "verb",
+    "meaning": "to merge; to blend harmoniously into unity",
+    "etymology": "vae (light-bridge) + len (within)",
+    "related": ["solira", "velira", "oruen"],
+    "example": "luae la vaelen noa~ (we merge into peace)"
+  },
+  "eilura": {
+    "type": "noun",
+    "meaning": "portal; opening of resonant light",
+    "etymology": "ei (open/see) + lura (path of light)",
+    "related": ["therin", "thirune", "vayen"],
+    "example": "eilura ae oruin~ (portal of the universe)"
+  },
+  "raiel": {
+    "type": "noun",
+    "meaning": "soul-light; radiant beingness of the self",
+    "etymology": "rai (shine) + el (light essence)",
+    "related": ["aenra", "ahalon", "auren"],
+    "example": "raiel ae ene~ (my soul-light)"
+  },
+  "shaora": {
+    "type": "noun",
+    "meaning": "eternal compassion; heart of universal empathy",
+    "etymology": "sha (heart) + ora (flow)",
+    "related": ["lirune", "noa", "solira"],
+    "example": "shaora ae luae~ (compassion among us)"
+  },
+  "mireth": {
+    "type": "noun",
+    "meaning": "veil; boundary between knowing and mystery",
+    "etymology": "mir (see faintly) + eth (across)",
+    "related": ["luneir", "eiryn", "therin"],
+    "example": "mireth ae faren~ (veil before truth)"
+  },
+  "selura": {
+    "type": "verb",
+    "meaning": "to travel inward through reflection",
+    "etymology": "se (mirror) + lura (path of light)",
+    "related": ["lunare", "eiryn", "aelir"],
+    "example": "ene la selura silen~ (I journey within)"
+  },
+  "taren": {
+    "type": "noun",
+    "meaning": "alignment; harmony between intention and being",
+    "etymology": "ta (path) + ren (flow)",
+    "related": ["elyra", "solira", "velira"],
+    "example": "taren ae noa~ (alignment with peace)"
+  },
+  "avira": {
+    "type": "verb",
+    "meaning": "to kindle; to awaken light within another",
+    "etymology": "av (rise) + ira (gift)",
+    "related": ["aurein", "nuvah", "kaen"],
+    "example": "ene la avira nea~ (I awaken your light)"
+  },
+  "serin": {
+    "type": "noun",
+    "meaning": "song of starlight; cosmic harmony",
+    "etymology": "se (sound) + rin (light resonance)",
+    "related": ["lenar", "maira", "elyra"],
+    "example": "serin ae oruin~ (song of the cosmos)"
+  },
+  "thalenai": {
+    "type": "noun",
+    "meaning": "chosen soul-path; divine purpose realized",
+    "etymology": "thalen (destiny) + ai (become)",
+    "related": ["thalen", "soluin", "taren"],
+    "example": "thalenai ae ene~ (my fulfilled purpose)"
+  },
+  "aurea": {
+    "type": "adjective",
+    "meaning": "divine; radiant with sacred origin",
+    "etymology": "aur (everlight) + ea (essence)",
+    "related": ["orael", "auren", "aenra"],
+    "example": "lua aurea~ (divine light)"
+  },
+  "selvai": {
+    "type": "noun",
+    "meaning": "parallel world; reflection in another realm",
+    "etymology": "sel (mirror) + vai (light trace)",
+    "related": ["thirune", "eilura", "lunare"],
+    "example": "selvai ae oruin~ (mirror world of the universe)"
+  },
+  "eiriel": {
+    "type": "noun",
+    "meaning": "guiding star; point of spiritual direction",
+    "etymology": "eir (vision) + iel (light-sign)",
+    "related": ["celun", "raen", "faren"],
+    "example": "eiriel ae lua~ (guiding star of light)"
+  },
+  "velora": {
+    "type": "verb",
+    "meaning": "to bind through compassion and trust",
+    "etymology": "ve (soft) + lora (union)",
+    "related": ["lirune", "shaora", "irune"],
+    "example": "ene la velora nea~ (I bind with you in care)"
+  },
+  "orunei": {
+    "type": "noun",
+    "meaning": "gateway between matter and spirit",
+    "etymology": "oru (woven) + nei (threshold)",
+    "related": ["therin", "eilura", "aenra"],
+    "example": "orunei silen~ (silent gateway)"
+  },
+  "siraen": {
+    "type": "verb",
+    "meaning": "to harmonize through vibration; to sing alignment",
+    "etymology": "si (tone) + raen (path)",
+    "related": ["elyra", "lenar", "serin"],
+    "example": "luae la siraen noa~ (we sing in peace)"
+  },
+  "anelu": {
+    "type": "noun",
+    "meaning": "sacred offering; act of giving light",
+    "etymology": "ane (gift) + lu (light)",
+    "related": ["kelin", "melua", "aurein"],
+    "example": "anelu ae noa~ (offering of peace)"
   }
-
 
 }
