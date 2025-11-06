@@ -2038,6 +2038,209 @@
     "etymology": "oru (weave) + enel (whole)",
     "related": ["oruin", "solira"],
     "example": "oruenel lua~ (ten lights)"
+  }  ,
+  "soenai": {
+    "type": "conjunction",
+    "meaning": "because; for that reason",
+    "etymology": "so (cause) + enai (being)",
+    "related": ["su", "vai"],
+    "example": "ene la saen noa soenai lua~ (I speak of peace because of light)"
+  },
+  "saran": {
+    "type": "preposition",
+    "meaning": "without; in absence of",
+    "etymology": "sa (negation) + ran (around)",
+    "related": ["sa", "noa"],
+    "example": "ene la mura saran lua~ (I rest without light)"
+  },
+  "verai": {
+    "type": "preposition",
+    "meaning": "between; in shared space of two",
+    "etymology": "ve (soft) + rai (space/light)",
+    "related": ["aenlin", "nei"],
+    "example": "lua verai noa~ (light between peace)"
+  },
+  "aelair": {
+    "type": "preposition",
+    "meaning": "through; across within light",
+    "etymology": "ael (light) + air (path)",
+    "related": ["raen", "taen"],
+    "example": "ene la tuae aelair noa~ (I walk through peace)"
+  },
+  "rual": {
+    "type": "preposition",
+    "meaning": "around; encircling softly",
+    "etymology": "ru (base) + al (surround)",
+    "related": ["falun", "haen"],
+    "example": "lua rual noa~ (light around peace)"
+  },
+  "eirua": {
+    "type": "preposition",
+    "meaning": "within; inside, enclosed by",
+    "etymology": "ei (see) + rua (core)",
+    "related": ["nei", "noa"],
+    "example": "ene la mura eirua lona~ (I rest within the home)"
+  },
+  "thurae": {
+    "type": "preposition",
+    "meaning": "beyond; farther than visible limit",
+    "etymology": "thura (rise/ascend) + e (place)",
+    "related": ["thelen", "norai"],
+    "example": "oruin thurae noa~ (peace beyond the world)"
+  },
+  "sharai": {
+    "type": "adverb",
+    "meaning": "again; once more, in return",
+    "etymology": "sha (heart) + rai (flow)",
+    "related": ["nuvah", "maren"],
+    "example": "ene la aenai sharai~ (I breathe again)"
+  },
+  "falai": {
+    "type": "adverb",
+    "meaning": "still; continuing quietly",
+    "etymology": "fa (true) + lai (persist)",
+    "related": ["silen", "relin"],
+    "example": "lua falai noa~ (light still shines)"
+  },
+  "maerin": {
+    "type": "adverb",
+    "meaning": "no longer; ceased or ended",
+    "etymology": "mae (stop) + rin (flow)",
+    "related": ["saren", "eirun"],
+    "example": "lua maerin~ (light no longer shines)"
+  },
+  "velir": {
+    "type": "adverb",
+    "meaning": "almost; nearly",
+    "etymology": "ve (soft) + lir (reach)",
+    "related": ["taen", "raen"],
+    "example": "ene la nelai velir noa~ (I almost begin in peace)"
+  },
+  "sual": {
+    "type": "adverb",
+    "meaning": "together as one; in perfect unity",
+    "etymology": "sua (they) + al (circle)",
+    "related": ["aenlin", "luae"],
+    "example": "luae la velae sual~ (we align together as one)"
+  },
+  "sairen": {
+    "type": "adverb",
+    "meaning": "apart; separately, distantly",
+    "etymology": "sa (apart) + iren (flow)",
+    "related": ["soain", "nei"],
+    "example": "ene la mura sairen~ (I rest apart)"
+  },
+  "leiren": {
+    "type": "adjective",
+    "meaning": "closer; more near",
+    "etymology": "lei (soft) + ren (approach)",
+    "related": ["nei", "velira"],
+    "example": "nei leiren~ (closer nearby)"
+  },
+  "mairen": {
+    "type": "adjective",
+    "meaning": "brighter; more luminous",
+    "etymology": "mai (increase) + ren (shine)",
+    "related": ["lua", "raeli"],
+    "example": "lua mairen~ (brighter light)"
+  },
+  "soiren": {
+    "type": "adjective",
+    "meaning": "softer; more gentle",
+    "etymology": "soi (gentle) + ren (state)",
+    "related": ["velira", "leina"],
+    "example": "noa soiren~ (softer peace)"
+  },
+  "farenai": {
+    "type": "adjective",
+    "meaning": "truer; more aligned with essence",
+    "etymology": "faren (truth) + ai (greater)",
+    "related": ["farae", "faen"],
+    "example": "lua farenai~ (truer light)"
+  },
+  "thurei": {
+    "type": "adjective",
+    "meaning": "highest; beyond comparison",
+    "etymology": "thura (rise) + ei (superlative)",
+    "related": ["thura", "aurea"],
+    "example": "thurei lua~ (highest light)"
+  },
+  "norei": {
+    "type": "adjective",
+    "meaning": "deepest; most inward",
+    "etymology": "nor (within) + ei (most)",
+    "related": ["eirua", "relin"],
+    "example": "norei silen~ (deepest stillness)"
+  },
+  "soerei": {
+    "type": "adjective",
+    "meaning": "softest; most tender",
+    "etymology": "so (soft) + rei (most)",
+    "related": ["soiren", "velira"],
+    "example": "noa soerei~ (softest peace)"
+  },
+  "taerei": {
+    "type": "adjective",
+    "meaning": "farthest; most distant",
+    "etymology": "taen (path) + rei (end)",
+    "related": ["thurae", "thelen"],
+    "example": "vaen taerei~ (farthest horizon)"
+  },
+  "navai": {
+    "type": "verb",
+    "meaning": "to continue; to persist with purpose",
+    "etymology": "na (path) + vai (still go)",
+    "related": ["falai", "taen"],
+    "example": "ene la navai noa~ (I continue in peace)"
+  },
+  "sarenai": {
+    "type": "verb",
+    "meaning": "to stop; to bring to stillness",
+    "etymology": "sa (halt) + renai (motion)",
+    "related": ["mura", "relin"],
+    "example": "ene la sarenai lua~ (I stop the light)"
+  },
+  "kaenai": {
+    "type": "verb",
+    "meaning": "to begin again; to restart",
+    "etymology": "kaen (spark) + ai (renew)",
+    "related": ["sharai", "nuvah"],
+    "example": "ene la kaenai noa~ (I begin again in peace)"
+  },
+  "thurein": {
+    "type": "modal",
+    "meaning": "can; to be able",
+    "etymology": "thura (rise) + ein (capacity)",
+    "related": ["thura", "taren"],
+    "example": "ene thurein la saen noa~ (I can speak of peace)"
+  },
+  "maurein": {
+    "type": "modal",
+    "meaning": "must; to be required",
+    "etymology": "maur (compel) + ein (being)",
+    "related": ["taren", "relin"],
+    "example": "ene maurein la mura~ (I must rest)"
+  },
+  "veirin": {
+    "type": "modal",
+    "meaning": "may; to be permitted",
+    "etymology": "vei (allow) + rin (state)",
+    "related": ["veira", "noa"],
+    "example": "ene veirin la tuae noa~ (I may walk in peace)"
+  },
+  "faerin": {
+    "type": "modal",
+    "meaning": "should; to be guided toward",
+    "etymology": "faen (truth) + rin (flow)",
+    "related": ["faren", "taren"],
+    "example": "ene faerin la velae noa~ (I should align in peace)"
+  },
+  "saerein": {
+    "type": "modal",
+    "meaning": "cannot; to be unable",
+    "etymology": "sa (negation) + ein (ability)",
+    "related": ["thurein", "sa"],
+    "example": "ene saerein la vayen~ (I cannot travel)"
   }
 
 }
