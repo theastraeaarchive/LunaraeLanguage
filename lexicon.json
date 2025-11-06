@@ -1552,6 +1552,244 @@
     "etymology": "ma (soft) + ren (flow)",
     "related": ["aeni", "reva", "silaren"],
     "example": "ene en maren noa~ (I remembered peacefully)"
+  }  ,
+  "li": {
+    "type": "particle",
+    "meaning": "and; joining of equal parts",
+    "etymology": "from proto-root of connection and balance",
+    "related": ["ae", "na", "en"],
+    "example": "lua li noa~ (light and peace)"
+  },
+  "tu": {
+    "type": "particle",
+    "meaning": "with; in the company of",
+    "etymology": "from old root meaning 'together-breath'",
+    "related": ["li", "ae", "nei"],
+    "example": "ene la tuae tu nea~ (I walk with you)"
+  },
+  "o": {
+    "type": "particle",
+    "meaning": "or; choice between",
+    "etymology": "ancient disjunctive marker",
+    "related": ["li", "sa"],
+    "example": "lua o noa~ (light or peace)"
+  },
+  "nei": {
+    "type": "preposition",
+    "meaning": "near; beside",
+    "etymology": "ne (closeness) + i (point)",
+    "related": ["tu", "ae"],
+    "example": "ene la mura nei loren~ (I rest near the forest)"
+  },
+  "ara": {
+    "type": "preposition",
+    "meaning": "toward; in the direction of",
+    "etymology": "from ra (motion, light)",
+    "related": ["raen", "ravae"],
+    "example": "ene la tuae ara lona~ (I walk toward home)"
+  },
+  "ni": {
+    "type": "particle",
+    "meaning": "also; too; even",
+    "etymology": "light echo particle of inclusion",
+    "related": ["li", "ae"],
+    "example": "lua ni noa~ (light too, peace also)"
+  },
+  "su": {
+    "type": "particle",
+    "meaning": "for; because of",
+    "etymology": "old purpose marker from surae root (flow)",
+    "related": ["ae", "na"],
+    "example": "ene la saen su noa~ (I speak for peace)"
+  },
+  "rai": {
+    "type": "particle",
+    "meaning": "then; next; afterwards",
+    "etymology": "from ra (flow) + i (sequence)",
+    "related": ["taen", "thura"],
+    "example": "ene la va lua rai la mura~ (I see the light, then rest)"
+  },
+  "ma": {
+    "type": "particle",
+    "meaning": "but; contrast, gentle disagreement",
+    "etymology": "soft negation, older than sa",
+    "related": ["li", "sa"],
+    "example": "lua ma noa~ (light but peace)"
+  },
+  "vai": {
+    "type": "particle",
+    "meaning": "therefore; thus; result",
+    "etymology": "from va (perceive) + i (outcome)",
+    "related": ["rai", "faen"],
+    "example": "faen noa vai lua~ (truth brings light)"
+  },
+  "aenai": {
+    "type": "verb",
+    "meaning": "to breathe; to exhale gently",
+    "etymology": "aen (breath) + ai (become)",
+    "related": ["hala", "halu"],
+    "example": "ene la aenai noa~ (I breathe peace)"
+  },
+  "riven": {
+    "type": "verb",
+    "meaning": "to write; to mark light in form",
+    "etymology": "ri (place) + ven (draw)",
+    "related": ["melin", "selar", "tarenar"],
+    "example": "ene la riven melin~ (I write a poem)"
+  },
+  "maven": {
+    "type": "verb",
+    "meaning": "to give; to share from within",
+    "etymology": "ma (open) + ven (move)",
+    "related": ["melua", "anelu", "aurein"],
+    "example": "ene la maven noa~ (I give peace)"
+  },
+  "velanai": {
+    "type": "verb",
+    "meaning": "to rest together; to share stillness",
+    "etymology": "ve (soft) + lan (rest) + ai (together)",
+    "related": ["mura", "saren", "lirune"],
+    "example": "luae la velanai noa~ (we rest together in peace)"
+  },
+  "tiren": {
+    "type": "verb",
+    "meaning": "to hold intention; to focus energy inward",
+    "etymology": "ti (fix) + ren (flow)",
+    "related": ["faen", "taren", "relin"],
+    "example": "ene la tiren faren~ (I hold truth)"
+  },
+  "nelai": {
+    "type": "verb",
+    "meaning": "to begin; to take the first step",
+    "etymology": "ne (first) + lai (move)",
+    "related": ["nuvah", "thura"],
+    "example": "ene na nelai raen~ (I will begin the path)"
+  },
+  "anir": {
+    "type": "verb",
+    "meaning": "to remember through story",
+    "etymology": "aen (breath) + ir (bind)",
+    "related": ["aeni", "reva", "melin"],
+    "example": "ene en anir melin~ (I remembered in story)"
+  },
+  "velae": {
+    "type": "verb",
+    "meaning": "to align; to bring into harmony",
+    "etymology": "ve (soft) + lae (join)",
+    "related": ["taren", "elyra", "velira"],
+    "example": "luae la velae noa~ (we align in peace)"
+  },
+  "halenai": {
+    "type": "verb",
+    "meaning": "to live fully; to breathe light into being",
+    "etymology": "hala (live) + ai (become)",
+    "related": ["halu", "athein", "nuvah"],
+    "example": "ene la halenai noa~ (I live peacefully)"
+  },
+  "niren": {
+    "type": "verb",
+    "meaning": "to grow; to expand in balance",
+    "etymology": "ni (rise) + ren (flow)",
+    "related": ["nuvah", "taen", "faen"],
+    "example": "lua niren~ (the light grows)"
+  },
+  "seren": {
+    "type": "adjective",
+    "meaning": "calm; gently flowing like air over water",
+    "etymology": "se (smooth) + ren (flow)",
+    "related": ["silen", "noel", "relin"],
+    "example": "mura seren~ (calm rest)"
+  },
+  "virel": {
+    "type": "adjective",
+    "meaning": "bright; full of energy and motion",
+    "etymology": "vi (life) + rel (light)",
+    "related": ["vani", "raeli", "lua"],
+    "example": "lua virel~ (bright light)"
+  },
+  "leina": {
+    "type": "adjective",
+    "meaning": "gentle; kind in motion and sound",
+    "etymology": "lei (soft) + na (continuity)",
+    "related": ["sien", "relin", "velira"],
+    "example": "ene la lira leina~ (I feel gently)"
+  },
+  "farae": {
+    "type": "adjective",
+    "meaning": "true; in harmony with essence",
+    "etymology": "fa (truth) + rae (light)",
+    "related": ["faren", "faen"],
+    "example": "lua farae~ (true light)"
+  },
+  "aenor": {
+    "type": "adjective",
+    "meaning": "alive; full of inner motion",
+    "etymology": "aen (breath) + or (flow)",
+    "related": ["halen", "nuviel", "lua"],
+    "example": "tua aenor~ (living body)"
+  },
+  "mirai": {
+    "type": "adjective",
+    "meaning": "mysterious; hidden but luminous",
+    "etymology": "mi (see faintly) + rai (shine)",
+    "related": ["luneir", "mireth"],
+    "example": "lua mirai~ (mysterious light)"
+  },
+  "soen": {
+    "type": "adjective",
+    "meaning": "sacred; worthy of reverence",
+    "etymology": "so (high) + en (essence)",
+    "related": ["sael", "aurea"],
+    "example": "elura soen~ (sacred temple)"
+  },
+  "naelir": {
+    "type": "adjective",
+    "meaning": "hopeful; rising toward new light",
+    "etymology": "nael (inspiration) + ir (state)",
+    "related": ["avira", "avun", "nuvah"],
+    "example": "lua naelir~ (hopeful light)"
+  },
+  "firenai": {
+    "type": "adjective",
+    "meaning": "bound; connected by shared trust",
+    "etymology": "firen (bond) + ai (state)",
+    "related": ["irune", "shaora"],
+    "example": "luae firenai~ (we are bound together)"
+  },
+  "anelir": {
+    "type": "adjective",
+    "meaning": "giving; generous of heart",
+    "etymology": "ane (gift) + lir (feeling)",
+    "related": ["maven", "anelu"],
+    "example": "ene anelir~ (I am generous)"
+  },
+  "relar": {
+    "type": "adjective",
+    "meaning": "still but strong; peace with presence",
+    "etymology": "re (rest) + lar (light-motion)",
+    "related": ["relin", "mura"],
+    "example": "noa relar~ (peace strong and still)"
+  },
+  "nevel": {
+    "type": "adjective",
+    "meaning": "softly luminous; glowing from within",
+    "etymology": "ne (within) + vel (soft light)",
+    "related": ["lua", "veyar", "velin"],
+    "example": "lua nevel~ (light softly glowing)"
+  },
+  "miel": {
+    "type": "adjective",
+    "meaning": "tender; filled with quiet affection",
+    "etymology": "mi (see) + el (light essence)",
+    "related": ["shael", "liraen"],
+    "example": "ene la lira miel~ (I feel tenderly)"
+  },
+  "solenai": {
+    "type": "adjective",
+    "meaning": "radiant and serene; both bright and calm",
+    "etymology": "solen (sun) + ai (state)",
+    "related": ["raeli", "seren"],
+    "example": "solenai noa~ (radiant peace)"
   }
 
 }
