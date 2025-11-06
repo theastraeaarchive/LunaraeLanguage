@@ -1062,6 +1062,286 @@
     "etymology": "ane (gift) + lu (light)",
     "related": ["kelin", "melua", "aurein"],
     "example": "anelu ae noa~ (offering of peace)"
+  }  ,
+  "halaen": {
+    "type": "noun",
+    "meaning": "family; shared circle of light and breath",
+    "etymology": "hala (breathe) + en (within)",
+    "related": ["lirune", "ahalonai", "irune"],
+    "example": "halaen noa~ (peaceful family)"
+  },
+  "vaera": {
+    "type": "noun",
+    "meaning": "friend; one whose light echoes yours",
+    "etymology": "vae (bridge) + ra (light)",
+    "related": ["lirune", "irune", "noa"],
+    "example": "vaera ae ene~ (my friend)"
+  },
+  "sorin": {
+    "type": "noun",
+    "meaning": "teacher; one who guides through light",
+    "etymology": "so (lead) + rin (shine)",
+    "related": ["melua", "faren", "eiran"],
+    "example": "sorin ae ene~ (my teacher)"
+  },
+  "kaelen": {
+    "type": "noun",
+    "meaning": "student; one who follows light to learn",
+    "etymology": "kae (seek) + len (within)",
+    "related": ["naren", "melua", "faren"],
+    "example": "kaelen ae sorin~ (student of the teacher)"
+  },
+  "feren": {
+    "type": "noun",
+    "meaning": "child; young spark of light",
+    "etymology": "fe (small) + ren (flow)",
+    "related": ["vaera", "halaen", "ahalon"],
+    "example": "feren lua~ (child of light)"
+  },
+  "oren": {
+    "type": "noun",
+    "meaning": "guardian; keeper of peace or light",
+    "etymology": "oru (weave) + en (state)",
+    "related": ["vuren", "sorin", "athein"],
+    "example": "oren ae noa~ (guardian of peace)"
+  },
+  "saven": {
+    "type": "noun",
+    "meaning": "wanderer; seeker between lands or states",
+    "etymology": "sa (soft) + ven (move)",
+    "related": ["naven", "ravae", "thura"],
+    "example": "saven ae raen~ (wanderer of the path)"
+  },
+  "verin": {
+    "type": "noun",
+    "meaning": "stranger; unfamiliar light",
+    "etymology": "ve (unknown) + rin (shine)",
+    "related": ["vaera", "lirune"],
+    "example": "verin noa~ (peace to the stranger)"
+  },
+  "lairen": {
+    "type": "noun",
+    "meaning": "home-village; place of communal breath",
+    "etymology": "lai (gather) + ren (flow)",
+    "related": ["lona", "halaen", "noa"],
+    "example": "lairen noa~ (peaceful village)"
+  },
+  "ruen": {
+    "type": "noun",
+    "meaning": "earth; ground beneath light",
+    "etymology": "ru (base) + en (state)",
+    "related": ["karun", "surae", "aeril"],
+    "example": "ruen noa~ (peaceful earth)"
+  },
+  "valen": {
+    "type": "noun",
+    "meaning": "forest glade; open light among trees",
+    "etymology": "va (see) + len (open space)",
+    "related": ["loren", "surae", "feyra"],
+    "example": "valen silin~ (quiet glade)"
+  },
+  "marun": {
+    "type": "noun",
+    "meaning": "stone; memory of earth’s light",
+    "etymology": "ma (solid) + run (root)",
+    "related": ["ruen", "karun", "haen"],
+    "example": "marun sael~ (sacred stone)"
+  },
+  "haen": {
+    "type": "noun",
+    "meaning": "riverbank; meeting of flow and stillness",
+    "etymology": "ha (breath) + en (state)",
+    "related": ["narel", "surae", "mura"],
+    "example": "haen noa~ (peaceful riverbank)"
+  },
+  "kaer": {
+    "type": "noun",
+    "meaning": "fire; living flame of transformation",
+    "etymology": "ka (ignite) + er (life)",
+    "related": ["kaen", "serai", "solen"],
+    "example": "kaer lua~ (light of fire)"
+  },
+  "tarenai": {
+    "type": "noun",
+    "meaning": "harvest; gathering of light and nourishment",
+    "etymology": "ta (path) + ren (flow) + ai (become)",
+    "related": ["ruen", "lairen", "noa"],
+    "example": "tarenai noa~ (peaceful harvest)"
+  },
+  "aerun": {
+    "type": "noun",
+    "meaning": "storm; sacred turbulence of sky",
+    "etymology": "aer (sky) + un (within)",
+    "related": ["feyra", "solen", "hael"],
+    "example": "aerun raeli~ (radiant storm)"
+  },
+  "lyren": {
+    "type": "noun",
+    "meaning": "rainbow; bridge of joined lights",
+    "etymology": "ly (bend) + ren (flow)",
+    "related": ["serai", "maira", "solira"],
+    "example": "lyren noa~ (peaceful rainbow)"
+  },
+  "vaen": {
+    "type": "noun",
+    "meaning": "horizon; edge between sky and earth",
+    "etymology": "va (see) + en (line)",
+    "related": ["aeril", "ruen", "solen"],
+    "example": "vaen noa~ (peaceful horizon)"
+  },
+  "tarenel": {
+    "type": "noun",
+    "meaning": "season; rhythm of change",
+    "etymology": "ta (path) + ren (flow) + el (light essence)",
+    "related": ["taen", "nuvah", "serai"],
+    "example": "tarenel noa~ (peaceful season)"
+  },
+  "aenel": {
+    "type": "noun",
+    "meaning": "moment; single breath of time",
+    "etymology": "aen (breath) + el (light)",
+    "related": ["taen", "eiryn", "faren"],
+    "example": "aenel ae ene~ (moment within me)"
+  },
+  "theirun": {
+    "type": "noun",
+    "meaning": "midnight; still center of darkness and light",
+    "etymology": "theira (dream) + run (root)",
+    "related": ["lunasil", "alun", "silen"],
+    "example": "theirun silen~ (quiet midnight)"
+  },
+  "solain": {
+    "type": "noun",
+    "meaning": "sunset; gentle fading of light",
+    "etymology": "sol (sun) + ain (descend)",
+    "related": ["serai", "solenai", "silen"],
+    "example": "solain noa~ (peaceful sunset)"
+  },
+  "norai": {
+    "type": "noun",
+    "meaning": "future; path yet unseen",
+    "etymology": "no (ahead) + rai (lighten)",
+    "related": ["thura", "thalen", "taen"],
+    "example": "norai ae ene~ (my future)"
+  },
+  "eirun": {
+    "type": "noun",
+    "meaning": "past; light carried in memory",
+    "etymology": "ei (see) + run (root)",
+    "related": ["aeni", "silaren", "aelir"],
+    "example": "eirun silen~ (quiet past)"
+  },
+  "sharen": {
+    "type": "noun",
+    "meaning": "present; the open now",
+    "etymology": "sha (essence) + ren (flow)",
+    "related": ["aenel", "eirun", "norai"],
+    "example": "sharen noa~ (peaceful present)"
+  },
+  "tarenar": {
+    "type": "noun",
+    "meaning": "craft; art of shaping with intention",
+    "etymology": "ta (shape/path) + renar (create)",
+    "related": ["selar", "melua", "naren"],
+    "example": "tarenar ae lua~ (craft of light)"
+  },
+  "faenai": {
+    "type": "noun",
+    "meaning": "knowledge; gathered truth over time",
+    "etymology": "faen (know) + ai (become)",
+    "related": ["faren", "aelir", "naren"],
+    "example": "faenai ae aelir~ (knowledge of wisdom)"
+  },
+  "velune": {
+    "type": "noun",
+    "meaning": "peacekeeper; one who restores harmony",
+    "etymology": "ve (soft) + lune (guide)",
+    "related": ["oren", "lirune", "noa"],
+    "example": "velune ae noa~ (keeper of peace)"
+  },
+  "siren": {
+    "type": "noun",
+    "meaning": "songbird; messenger of light’s joy",
+    "etymology": "si (sing) + ren (flow)",
+    "related": ["lenar", "serin", "loren"],
+    "example": "siren vani~ (beautiful songbird)"
+  },
+  "valira": {
+    "type": "noun",
+    "meaning": "friendship; shared resonance of hearts",
+    "etymology": "vaera (friend) + lira (feel)",
+    "related": ["lirune", "shael", "irune"],
+    "example": "valira noa~ (peaceful friendship)"
+  },
+  "kairen": {
+    "type": "verb",
+    "meaning": "to build; to raise form from intent",
+    "etymology": "kai (rise) + ren (form)",
+    "related": ["selar", "tarenar", "melua"],
+    "example": "ene la kairen tarenar~ (I build craft)"
+  },
+  "aenir": {
+    "type": "verb",
+    "meaning": "to breathe together; to share life-air",
+    "etymology": "aen (breath) + ir (together)",
+    "related": ["halu", "lirune", "noa"],
+    "example": "luae la aenir noa~ (we breathe peace together)"
+  },
+  "merai": {
+    "type": "noun",
+    "meaning": "mirror-lake; place of reflection and calm",
+    "etymology": "me (see) + rai (shine)",
+    "related": ["lunasil", "silen", "serai"],
+    "example": "merai silen~ (still mirror-lake)"
+  },
+  "vaylen": {
+    "type": "verb",
+    "meaning": "to journey far; to traverse lands or ideas",
+    "etymology": "vaya (shine) + len (stretch)",
+    "related": ["naven", "ravae", "oruin"],
+    "example": "ene la vaylen oruin~ (I journey across worlds)"
+  },
+  "saren": {
+    "type": "verb",
+    "meaning": "to rest peacefully; to be complete in calm",
+    "etymology": "sa (soft) + ren (flow)",
+    "related": ["mura", "silen", "noa"],
+    "example": "ene la saren noa~ (I rest in peace)"
+  },
+  "narelai": {
+    "type": "noun",
+    "meaning": "sanctuary; sacred place of stillness",
+    "etymology": "narel (river) + ai (become)",
+    "related": ["nura", "lona", "silen"],
+    "example": "narelai noa~ (peaceful sanctuary)"
+  },
+  "raenai": {
+    "type": "noun",
+    "meaning": "pilgrimage; spiritual journey",
+    "etymology": "raen (path) + ai (become)",
+    "related": ["saven", "thura", "aelir"],
+    "example": "raenai ae lua~ (journey of light)"
+  },
+  "elura": {
+    "type": "noun",
+    "meaning": "temple; structure built of devotion",
+    "etymology": "el (light) + ura (beyond)",
+    "related": ["aurein", "narelai", "sael"],
+    "example": "elura sael~ (sacred temple)"
+  },
+  "taerin": {
+    "type": "noun",
+    "meaning": "ritual; act of remembrance and offering",
+    "etymology": "ta (path) + erin (gesture)",
+    "related": ["anelu", "aurein", "elura"],
+    "example": "taerin noa~ (peaceful ritual)"
+  },
+  "falun": {
+    "type": "noun",
+    "meaning": "circle; cycle of unity or gathering",
+    "etymology": "fa (true) + lun (round/light)",
+    "related": ["solira", "halaen", "noa"],
+    "example": "falun ae noa~ (circle of peace)"
   }
 
 }
