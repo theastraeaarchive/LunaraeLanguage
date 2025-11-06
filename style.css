@@ -213,4 +213,31 @@ footer em {
   background: rgba(255,255,255,0.05);
 }
 
+   /* ===== Content Sections (for Grammar & Other Pages) ===== */
+.content-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: rgba(255,255,255,0.02);
+  border-radius: 10px;
+  border-left: 3px solid #586bdb;
+}
+
+.content-section h2 {
+  color: #b6c9ff;
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+
+.content-section p {
+  color: #cfd5ec;
+  font-weight: 300;
+}
+
+blockquote {
+  border-left: 3px solid #586bdb;
+  margin: 1rem 2rem;
+  padding-left: 1rem;
+  color: #d8e0ff;
+  font-style: italic;
 }
