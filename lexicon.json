@@ -1,0 +1,30 @@
+{
+  "lua": {
+    "type": "noun",
+    "meaning": "light",
+    "etymology": "root concept of illumination and truth",
+    "related": ["raeli", "vaya", "noa"],
+    "example": "lua vani~ (beautiful light)"
+  },
+  "mura": {
+    "type": "verb",
+    "meaning": "to rest / to be soft",
+    "etymology": "the quiet act of being",
+    "related": ["noa", "silen"],
+    "example": "na mura ae lona noa~ (I will rest in the peaceful home)"
+  },
+  "aeni": {
+    "type": "verb",
+    "meaning": "to remember",
+    "etymology": "from ancient root meaning 'to hold within light'",
+    "related": ["silaren", "lunasil"],
+    "example": "ene en aeni silen~ (I remembered stillness)"
+  },
+  "silaren": {
+    "type": "noun",
+    "meaning": "longing, ache of memory",
+    "etymology": "from silen (stillness) + aen (breath)",
+    "related": ["lunasil", "aeni"],
+    "example": "silaren ae lunasil~ (the longing of the star-lake)"
+  }
+}
