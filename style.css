@@ -260,4 +260,43 @@ small {
   color: #aeb8da;
   font-size: 0.9rem;
 }
+   .entries {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.entry {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  padding: 1rem 1.2rem;
+  transition: background 0.2s;
+}
+
+.entry:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.phrase-text {
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #e6e0ff;
+  letter-spacing: 0.5px;
+}
+
+.phrase-meaning {
+  color: #b3b1c9;
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+
+.phrase-usage {
+  color: #9ea5b5;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
 
