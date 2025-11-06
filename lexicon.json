@@ -1790,6 +1790,254 @@
     "etymology": "solen (sun) + ai (state)",
     "related": ["raeli", "seren"],
     "example": "solenai noa~ (radiant peace)"
+  }  ,
+  "enei": {
+    "type": "pronoun",
+    "meaning": "my; mine",
+    "etymology": "ene (I) + i (belonging)",
+    "related": ["ene", "nea"],
+    "example": "lua enei~ (my light)"
+  },
+  "neai": {
+    "type": "pronoun",
+    "meaning": "your; yours",
+    "etymology": "nea (you) + i (belonging)",
+    "related": ["nea", "ene"],
+    "example": "lua neai~ (your light)"
+  },
+  "luaei": {
+    "type": "pronoun",
+    "meaning": "our; ours",
+    "etymology": "luae (we) + i (belonging)",
+    "related": ["luae", "sua"],
+    "example": "noa luaei~ (our peace)"
+  },
+  "suai": {
+    "type": "pronoun",
+    "meaning": "their; theirs",
+    "etymology": "sua (they) + i (belonging)",
+    "related": ["sua", "luae"],
+    "example": "lua suai~ (their light)"
+  },
+  "eneiha": {
+    "type": "pronoun",
+    "meaning": "myself",
+    "etymology": "ene (I) + iha (self)",
+    "related": ["ene", "enei"],
+    "example": "ene la va lua eneiha~ (I see my own light)"
+  },
+  "neaha": {
+    "type": "pronoun",
+    "meaning": "yourself",
+    "etymology": "nea (you) + ha (self)",
+    "related": ["nea", "neai"],
+    "example": "ene la saen neaha~ (I speak to you yourself)"
+  },
+  "luaeha": {
+    "type": "pronoun",
+    "meaning": "ourselves",
+    "etymology": "luae (we) + ha (self)",
+    "related": ["luae", "luaei"],
+    "example": "luae la aenir luaeha~ (we breathe together ourselves)"
+  },
+  "suaha": {
+    "type": "pronoun",
+    "meaning": "themselves",
+    "etymology": "sua (they) + ha (self)",
+    "related": ["sua", "suai"],
+    "example": "sua la vaya suaha~ (they shine themselves)"
+  },
+
+  "naer": {
+    "type": "interrogative",
+    "meaning": "who",
+    "etymology": "na (being) + er (essence)",
+    "related": ["ahalon", "nea"],
+    "example": "naer la va lua~ (who sees the light?)"
+  },
+  "maer": {
+    "type": "interrogative",
+    "meaning": "what",
+    "etymology": "ma (thing) + er (essence)",
+    "related": ["faen", "faren"],
+    "example": "maer la lua~ (what is light?)"
+  },
+  "taer": {
+    "type": "interrogative",
+    "meaning": "where",
+    "etymology": "ta (path) + er (place)",
+    "related": ["raen", "lona"],
+    "example": "taer la lona~ (where is home?)"
+  },
+  "their": {
+    "type": "interrogative",
+    "meaning": "when",
+    "etymology": "the (time) + ir (point)",
+    "related": ["taen", "tarenel"],
+    "example": "their la serai~ (when is dawn?)"
+  },
+  "vair": {
+    "type": "interrogative",
+    "meaning": "why",
+    "etymology": "va (see) + ir (reason)",
+    "related": ["faren", "faen"],
+    "example": "vair la saen noa~ (why speak of peace?)"
+  },
+  "neir": {
+    "type": "interrogative",
+    "meaning": "how",
+    "etymology": "nei (near) + ir (manner)",
+    "related": ["taren", "relin"],
+    "example": "neir la noan~ (how do we harmonize?)"
+  },
+  "soer": {
+    "type": "interrogative",
+    "meaning": "which",
+    "etymology": "so (choice) + er (entity)",
+    "related": ["maer", "li"],
+    "example": "soer la lua raeli~ (which light is radiant?)"
+  },
+
+  "eian": {
+    "type": "adverb",
+    "meaning": "now; in this moment",
+    "etymology": "ei (see) + an (immediacy)",
+    "related": ["sharen", "aenel"],
+    "example": "eian la noa~ (peace now)"
+  },
+  "norin": {
+    "type": "adverb",
+    "meaning": "soon; near in time",
+    "etymology": "no (forward) + rin (approach)",
+    "related": ["norai", "thura"],
+    "example": "norin la serai~ (dawn soon)"
+  },
+  "eirunai": {
+    "type": "adverb",
+    "meaning": "before; in earlier time",
+    "etymology": "eirun (past) + ai (state)",
+    "related": ["eirun", "taen"],
+    "example": "eirunai la aeni~ (I remembered before)"
+  },
+  "norain": {
+    "type": "adverb",
+    "meaning": "later; afterward",
+    "etymology": "norai (future) + in (time)",
+    "related": ["norai", "rai"],
+    "example": "norain la mura~ (I will rest later)"
+  },
+  "murin": {
+    "type": "adverb",
+    "meaning": "always; continually",
+    "etymology": "mura (rest) + in (constant state)",
+    "related": ["noa", "sharen"],
+    "example": "murin la noa~ (peace always)"
+  },
+  "saerin": {
+    "type": "adverb",
+    "meaning": "never; at no time",
+    "etymology": "sa (negation) + erin (time)",
+    "related": ["sa", "eirun"],
+    "example": "saerin la sa va lua~ (I never see the light)"
+  },
+  "aenlin": {
+    "type": "adverb",
+    "meaning": "together; in shared space",
+    "etymology": "aen (breath) + lin (with)",
+    "related": ["luae", "lirune"],
+    "example": "luae la aenlin noa~ (we are together in peace)"
+  },
+  "soain": {
+    "type": "adverb",
+    "meaning": "alone; in solitude",
+    "etymology": "so (singular) + ain (state)",
+    "related": ["ene", "silen"],
+    "example": "ene la soain silen~ (I am alone in stillness)"
+  },
+  "velain": {
+    "type": "adverb",
+    "meaning": "gently; softly",
+    "etymology": "ve (soft) + lain (manner)",
+    "related": ["leina", "sien"],
+    "example": "ene la lira velain~ (I feel gently)"
+  },
+  "thuren": {
+    "type": "adverb",
+    "meaning": "suddenly; in awakening motion",
+    "etymology": "thura (rise) + en (moment)",
+    "related": ["thura", "narai"],
+    "example": "thuren la thura lua~ (the light rises suddenly)"
+  },
+
+  "raenel": {
+    "type": "numeral",
+    "meaning": "one",
+    "etymology": "raen (path) + el (point)",
+    "related": ["falun"],
+    "example": "raenel lua~ (one light)"
+  },
+  "luen": {
+    "type": "numeral",
+    "meaning": "two",
+    "etymology": "lua (light) + en (pair)",
+    "related": ["lirune"],
+    "example": "luen noa~ (two peace / both peace)"
+  },
+  "faer": {
+    "type": "numeral",
+    "meaning": "three",
+    "etymology": "fa (truth) + er (entity)",
+    "related": ["faren", "falun"],
+    "example": "faer lua~ (three lights)"
+  },
+  "naen": {
+    "type": "numeral",
+    "meaning": "four",
+    "etymology": "na (flow) + en (complete)",
+    "related": ["noa", "raen"],
+    "example": "naen ae noa~ (fourfold peace)"
+  },
+  "solenel": {
+    "type": "numeral",
+    "meaning": "five",
+    "etymology": "solen (sun) + el (count)",
+    "related": ["solen", "serai"],
+    "example": "solenel lua~ (five lights)"
+  },
+  "velar": {
+    "type": "numeral",
+    "meaning": "six",
+    "etymology": "ve (soft) + lar (link)",
+    "related": ["velira", "solira"],
+    "example": "velar lua~ (six lights)"
+  },
+  "aurel": {
+    "type": "numeral",
+    "meaning": "seven",
+    "etymology": "aur (eternal) + el (essence)",
+    "related": ["aurea", "aurein"],
+    "example": "aurel lua~ (seven lights)"
+  },
+  "maen": {
+    "type": "numeral",
+    "meaning": "eight",
+    "etymology": "ma (complete) + en (form)",
+    "related": ["falun", "noa"],
+    "example": "maen lua~ (eight lights)"
+  },
+  "thelen": {
+    "type": "numeral",
+    "meaning": "nine",
+    "etymology": "the (beyond) + len (reach)",
+    "related": ["thura", "eiriel"],
+    "example": "thelen lua~ (nine lights)"
+  },
+  "oruenel": {
+    "type": "numeral",
+    "meaning": "ten",
+    "etymology": "oru (weave) + enel (whole)",
+    "related": ["oruin", "solira"],
+    "example": "oruenel lua~ (ten lights)"
   }
 
 }
