@@ -241,3 +241,23 @@ blockquote {
   color: #d8e0ff;
   font-style: italic;
 }
+   /* ===== Glyph Table Enhancements ===== */
+.phonetable td, .phonetable th {
+  text-align: center;
+}
+
+.phonetable th:first-child,
+.phonetable td:first-child {
+  text-align: left;
+}
+
+.phonetable th:last-child,
+.phonetable td:last-child {
+  text-align: left;
+}
+
+small {
+  color: #aeb8da;
+  font-size: 0.9rem;
+}
+
