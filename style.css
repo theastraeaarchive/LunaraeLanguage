@@ -173,4 +173,44 @@ footer em {
   h1 {
     font-size: 1.8rem;
   }
+
+   /* ===== Phonology Page Styles ===== */
+.phon-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.phon-section h2 {
+  color: #b6c9ff;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 0.4rem;
+}
+
+.phon-section p {
+  color: #cbd3eb;
+  margin-bottom: 1rem;
+}
+
+.phon-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.phon-table th, .phon-table td {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  padding: 0.6rem;
+  text-align: left;
+}
+
+.phon-table th {
+  color: #9bb2d1;
+  font-weight: 600;
+}
+
+.phon-table tr:hover {
+  background: rgba(255,255,255,0.05);
+}
+
 }
