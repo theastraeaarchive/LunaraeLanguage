@@ -279,24 +279,57 @@ small {
   background: rgba(255, 255, 255, 0.12);
 }
 
-.phrase-text {
-  font-family: 'Lora', serif;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #e6e0ff;
-  letter-spacing: 0.5px;
+#phrases {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
 }
 
-.phrase-meaning {
-  color: #b3b1c9;
-  margin-top: 0.4rem;
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  transition: background 0.2s ease;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.phrase-text {
+  font-size: 1.3rem;
+  color: #e8e4ff;
+  margin-bottom: 0.3rem;
+}
+
+.meaning {
+  color: #c3c0e0;
   font-style: italic;
 }
 
-.phrase-usage {
-  color: #9ea5b5;
+.usage {
+  color: #aaa7c2;
   font-size: 0.9rem;
-  margin-top: 0.3rem;
+  margin-top: 0.4rem;
+}
+
+#searchBox {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.6rem;
+  border: none;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  font-size: 1rem;
+}
+
+#searchBox::placeholder {
+  color: rgba(255,255,255,0.5);
 }
 
 
