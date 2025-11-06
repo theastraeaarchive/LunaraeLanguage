@@ -1,0 +1,68 @@
+body {
+  background-color: #0b0f19;
+  color: #eaeff7;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  color: #b6c9ff;
+}
+
+.subtitle {
+  color: #9bb2d1;
+  margin-top: -1rem;
+}
+
+#search {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#searchBox {
+  width: 60%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #141b2b;
+  color: #eaeff7;
+  font-size: 1rem;
+}
+
+main#lexicon {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.entry {
+  background: rgba(255,255,255,0.03);
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  border-left: 3px solid #586bdb;
+  transition: 0.3s ease;
+}
+
+.entry:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.entry h2 {
+  margin: 0;
+  color: #cfd9ff;
+  letter-spacing: 1px;
+}
+
+.entry p {
+  margin: 0.3rem 0;
+  color: #ccd4e8;
+}
