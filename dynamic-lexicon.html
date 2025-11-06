@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Lexicon | Lunarae Language</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #lexicon-list {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .word-card {
+      background: rgba(255,255,255,0.03);
+      border-radius: 10px;
+      margin-bottom: 0.8rem;
+      padding: 1rem 1.5rem;
+      border-left: 3px solid #586bdb;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .word-card:hover {
+      background: rgba(255,255,255,0.06);
+      transform: translateY(-2px);
+    }
+
+    .word-card h2 {
+      margin: 0;
+      color: #cfd9ff;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+
+    .details {
+      display: none;
+      margin-top: 0.5rem;
+      color: #ccd4e8;
+      font-weight: 300;
+      text-align: left;
+    }
+
+    .details p {
+      margin: 0.3rem 0;
+    }
+
+    .active .details {
+      display: block;
+      animation: fadeIn 0.4s ease;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-4px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    #searchBox {
+      width: 60%;
+      max-width: 400px;
+      padding: 0.6rem 1rem;
+      border: none;
+      border-radius: 20px;
+      background-color: #141b2b;
+      color: #eaeff7;
+      font-size: 1rem;
+      margin: 1rem auto;
+      display: block;
+    }
+
+    #searchBox:focus {
+      outline: none;
+      background-color: #1b2336;
+      box-shadow: 0 0 10px rgba(150, 180, 255, 0.4);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Dynamic Lexicon</h1>
+    <p class="subtitle">Explore the Living Words of Lunarae</p>
+  </header>
+
+  <main id="content">
+    <section class="intro">
+      <p>
+        Each word in <strong>Lunarae</strong> carries its own resonance — meaning, feeling, and light.  
+        This tool allows you to <em>explore interactively</em>: click any word to reveal its depth.
+      </p>
+    </section>
+
+    <section id="search">
+      <input type="text" id="searchBox" placeholder="Search for a word or meaning...">
+    </section>
+
+    <section id="lexicon-list"></section>
+  </main>
+
+  <footer>
+    <p>Part of the <strong>Astraea Archive</strong> ✦ Designed by <em>The Ahalon</em></p>
+  </footer>
+
+  <script>
+    let lexiconData = {};
+
+    // Load JSON and render
+    async function loadLexicon() {
+      const res = await fetch('lexicon.json');
+      lexiconData = await res.json();
+      renderWords(lexiconData);
+    }
+
+    function renderWords(words) {
+      const list = document.getElementById('lexicon-list');
+      list.innerHTML = '';
+
+      for (let key in words) {
+        const w = words[key];
+        const card = document.createElement('div');
+        card.className = 'word-card';
+        card.innerHTML = `
+          <h2>${key}</h2>
+          <div class="details">
+            <p><strong>Type:</strong> ${w.type}</p>
+            <p><strong>Meaning:</strong> ${w.meaning}</p>
+            <p><strong>Etymology:</strong> ${w.etymology}</p>
+            <p><strong>Related:</strong> ${w.related.join(', ')}</p>
+            <p><strong>Example:</strong> ${w.example}</p>
+          </div>
+        `;
+        card.addEventListener('click', () => {
+          card.classList.toggle('active');
+        });
+        list.appendChild(card);
+      }
+    }
+
+    // Search functionality
+    document.getElementById('searchBox').addEventListener('input', (e) => {
+      const term = e.target.value.toLowerCase();
+      const filtered = Object.fromEntries(
+        Object.entries(lexiconData).filter(([key, val]) =>
+          key.toLowerCase().includes(term) ||
+          val.meaning.toLowerCase().includes(term) ||
+          val.etymology.toLowerCase().includes(term)
+        )
+      );
+      renderWords(filtered);
+    });
+
+    loadLexicon();
+  </script>
+</body>
+</html>
