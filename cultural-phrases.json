@@ -594,7 +594,188 @@
   "shael norei noa~": {
     "meaning": "love is deep peace",
     "usage": "short meditative line often repeated in chants"
+  }  ,
+  "ene la faen nea lua~": {
+    "meaning": "I understand you in light",
+    "usage": "used when someone feels truly heard"
+  },
+  "ene la shael noaen~": {
+    "meaning": "I am at peace in love",
+    "usage": "calm affirmation of contentment"
+  },
+  "noa lua velain~": {
+    "meaning": "peace and light move gently",
+    "usage": "neutral daily greeting or farewell"
+  },
+  "ene la shael noa falai~": {
+    "meaning": "I still love peace",
+    "usage": "used after disagreement or healing"
+  },
+  "ene la shael nea sharai~": {
+    "meaning": "I love you again",
+    "usage": "soft reconciliation or forgiveness phrase"
+  },
+  "ene la shael nea velain~": {
+    "meaning": "I love you gently",
+    "usage": "affectionate phrase in friendship or romance"
+  },
+  "ene la sael noa~": {
+    "meaning": "I bless peace",
+    "usage": "soft offering of goodwill"
+  },
+  "ene la sael nea~": {
+    "meaning": "I bless you",
+    "usage": "warm, everyday blessing"
+  },
+  "ene la shael nea norei~": {
+    "meaning": "I love you deeply",
+    "usage": "intimate emotional expression"
+  },
+  "ene la faen noa~": {
+    "meaning": "I know peace",
+    "usage": "phrase of inner certainty or completion"
+  },
+  "ene la faen noa sharai~": {
+    "meaning": "I find peace again",
+    "usage": "used after renewal or recovery"
+  },
+  "lua velain noa~": {
+    "meaning": "light moves gently through peace",
+    "usage": "simple phrase of appreciation for the moment"
+  },
+  "ene la shael faen nea~": {
+    "meaning": "I love your truth",
+    "usage": "spoken with admiration or respect"
+  },
+  "ene la faen nea~": {
+    "meaning": "I understand you",
+    "usage": "response to deep sharing"
+  },
+  "ene la velunei nea~": {
+    "meaning": "I comfort you",
+    "usage": "spoken when holding or soothing someone"
+  },
+  "ene la shael lua~": {
+    "meaning": "I love the light",
+    "usage": "expression of joy, beauty, or gratitude"
+  },
+  "ene la saen lua~": {
+    "meaning": "I speak light",
+    "usage": "metaphor for speaking kindly or truthfully"
+  },
+  "ene la saen noa velain~": {
+    "meaning": "I speak peace gently",
+    "usage": "soft speech pattern for mediation or diplomacy"
+  },
+  "ene la shael noa thura~": {
+    "meaning": "I love peace as it rises",
+    "usage": "said when someone is recovering emotionally"
+  },
+  "ene la shael noa silen~": {
+    "meaning": "I love peaceful stillness",
+    "usage": "spoken during rest or quiet reflection"
+  },
+  "ene la shael noa aenor~": {
+    "meaning": "I love living peace",
+    "usage": "philosophical affirmation of active serenity"
+  },
+  "ene la saen nea thuren~": {
+    "meaning": "I speak to you with awakening",
+    "usage": "used to start heartfelt or important dialogue"
+  },
+  "ene la shael lua norei~": {
+    "meaning": "I love the deep light",
+    "usage": "used to describe awe or sacred beauty"
+  },
+  "ene la shael lua thurei~": {
+    "meaning": "I love the highest light",
+    "usage": "uttered in worship or devotion"
+  },
+  "ene la shael noa faren~": {
+    "meaning": "I love peace and truth",
+    "usage": "said during discussion or teaching"
+  },
+  "ene la shael noa faen~": {
+    "meaning": "I love peaceful truth",
+    "usage": "a self-reminder for harmony and clarity"
+  },
+  "ene la faen noa falai~": {
+    "meaning": "I understand peace still",
+    "usage": "said after resolving conflict or doubt"
+  },
+  "ene la sael lua thuren~": {
+    "meaning": "I bless the rising light",
+    "usage": "morning greeting or new beginning"
+  },
+  "ene la sael lua falai~": {
+    "meaning": "I bless the enduring light",
+    "usage": "said at sunset or in gratitude"
+  },
+  "ene la shael noa velain nea~": {
+    "meaning": "I love you with peaceful gentleness",
+    "usage": "affectionate, romantic, or parental phrase"
+  },
+  "ene la sael noa norei~": {
+    "meaning": "I bless deep peace",
+    "usage": "said at night or in solemn blessing"
+  },
+  "ene la shael noa relar~": {
+    "meaning": "I love steady peace",
+    "usage": "spoken when reaffirming calm or unity"
+  },
+  "ene la shael noa leina~": {
+    "meaning": "I love kind peace",
+    "usage": "used when encouraging empathy"
+  },
+  "ene la shael noa thurein~": {
+    "meaning": "I can love peace",
+    "usage": "self-forgiving phrase after healing"
+  },
+  "ene la shael noa soerei~": {
+    "meaning": "I love the softest peace",
+    "usage": "expression of tender affection or gratitude"
+  },
+  "ene la shael noa taerei~": {
+    "meaning": "I love distant peace",
+    "usage": "used to honor someone far away or passed on"
+  },
+  "ene la shael noa farenai~": {
+    "meaning": "I love truer peace",
+    "usage": "philosophical reflection or vow"
+  },
+  "ene la shael noa thurei~": {
+    "meaning": "I love the highest peace",
+    "usage": "uttered during spiritual awakening or revelation"
+  },
+  "ene la saen noa faren~": {
+    "meaning": "I speak peaceful truth",
+    "usage": "used when resolving tension gently"
+  },
+  "ene la saen noa relar~": {
+    "meaning": "I speak steady peace",
+    "usage": "phrase of calm leadership or reassurance"
+  },
+  "ene la saen noa falai~": {
+    "meaning": "I still speak peace",
+    "usage": "used to show resilience and patience"
+  },
+  "ene la saen noa velain~": {
+    "meaning": "I speak peace gently",
+    "usage": "spoken in apology or mediation"
+  },
+  "ene la sael noa falai~": {
+    "meaning": "I bless peace still",
+    "usage": "soft reminder of continuity and presence"
+  },
+  "ene la faen noa norei~": {
+    "meaning": "I understand deep peace",
+    "usage": "quiet reflection, said during contemplation"
+  },
+  "ene la sael noa faren~": {
+    "meaning": "I bless peace in truth",
+    "usage": "closing line of a conversation or offering"
   }
+
 
 
 
