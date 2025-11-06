@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunarae Sentence Builder | Astraea Archive</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Extra styling for the builder interface */
+    #builder {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 1.5rem 2rem;
+      background: rgba(255,255,255,0.03);
+      border-radius: 12px;
+      border-left: 3px solid #586bdb;
+      text-align: center;
+    }
+
+    select {
+      margin: 0.5rem;
+      padding: 0.6rem;
+      border-radius: 8px;
+      border: none;
+      background: #141b2b;
+      color: #eaeff7;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    select:hover {
+      background: #1b2336;
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.7rem 1.2rem;
+      border-radius: 10px;
+      background: #586bdb;
+      color: #fff;
+      border: none;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #8ba5ff;
+    }
+
+    #output {
+      margin-top: 1.5rem;
+      background: rgba(255,255,255,0.04);
+      padding: 1rem;
+      border-radius: 10px;
+      color: #cfd9ff;
+      font-size: 1.1rem;
+      text-align: center;
+      letter-spacing: 0.5px;
+    }
+
+    #translation {
+      color: #9fb3d5;
+      font-size: 0.95rem;
+      margin-top: 0.4rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Sentence Builder</h1>
+    <p class="subtitle">Form your own phrases in Lunarae</p>
+  </header>
+
+  <main id="content">
+
+    <section class="intro">
+      <p>
+        Choose a <strong>pronoun</strong>, <strong>state</strong>, <strong>verb</strong>, and <strong>noun</strong> to form a sentence.  
+        The builder will show your phrase in <strong>Lunarae</strong> and its English translation.  
+        Punctuation and breath marks (~) are added automatically.
+      </p>
+    </section>
+
+    <section id="builder">
+      <div>
+        <select id="pronoun">
+          <option value="ene" data-eng="I">ene (I)</option>
+          <option value="nea" data-eng="you">nea (you)</option>
+          <option value="luae" data-eng="we">luae (we)</option>
+          <option value="sua" data-eng="they">sua (they)</option>
+        </select>
+
+        <select id="state">
+          <option value="la" data-eng="am">la (am / are)</option>
+          <option value="na" data-eng="will">na (will)</option>
+          <option value="en" data-eng="was">en (was)</option>
+        </select>
+
+        <select id="verb">
+          <option value="va" data-eng="see">va (see)</option>
+          <option value="mura" data-eng="rest">mura (rest)</option>
+          <option value="aeni" data-eng="remember">aeni (remember)</option>
+          <option value="lira" data-eng="feel">lira (feel)</option>
+          <option value="saen" data-eng="speak">saen (speak)</option>
+          <option value="vaya" data-eng="shine">vaya (shine)</option>
+        </select>
+
+        <select id="noun">
+          <option value="lua" data-eng="the light">lua (light)</option>
+          <option value="lona" data-eng="the home">lona (home)</option>
+          <option value="silen" data-eng="stillness">silen (stillness)</option>
+          <option value="noa" data-eng="peace">noa (peace)</option>
+          <option value="silaren" data-eng="longing">silaren (longing)</option>
+          <option value="lunasil" data-eng="the star-lake">lunasil (star-lake)</option>
+        </select>
+
+        <button onclick="buildSentence()">✨ Build Phrase</button>
+      </div>
+
+      <div id="output"></div>
+      <div id="translation"></div>
+    </section>
+
+    <section class="content-section">
+      <h2>Examples to Try</h2>
+      <ul>
+        <li>ene la va lua → “I see the light.”</li>
+        <li>nea en aeni silen → “You remembered stillness.”</li>
+        <li>luae na mura ae lona noa → “We will rest in the peaceful home.”</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Part of the <strong>Astraea Archive</strong> ✦ Designed by <em>The Ahalon</em></p>
+  </footer>
+
+  <script>
+    function buildSentence() {
+      const pronoun = document.getElementById('pronoun');
+      const state = document.getElementById('state');
+      const verb = document.getElementById('verb');
+      const noun = document.getElementById('noun');
+
+      const pVal = pronoun.value;
+      const sVal = state.value;
+      const vVal = verb.value;
+      const nVal = noun.value;
+
+      const pEng = pronoun.selectedOptions[0].dataset.eng;
+      const sEng = state.selectedOptions[0].dataset.eng;
+      const vEng = verb.selectedOptions[0].dataset.eng;
+      const nEng = noun.selectedOptions[0].dataset.eng;
+
+      const lunarae = `${pVal} ${sVal} ${vVal} ${nVal}~`;
+      const english = `${pEng} ${sEng} ${vEng} ${nEng}.`;
+
+      document.getElementById('output').innerHTML = lunarae;
+      document.getElementById('translation').innerHTML = english;
+    }
+  </script>
+</body>
+</html>
