@@ -74,6 +74,36 @@
       background-color: #1b2336;
       box-shadow: 0 0 10px rgba(150, 180, 255, 0.4);
     }
+
+    /* ===== Filter Buttons ===== */
+    #filters {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .filter-btn {
+      display: inline-block;
+      background: rgba(255,255,255,0.05);
+      color: #b6c9ff;
+      border: none;
+      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      margin: 0.3rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .filter-btn:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    .filter-btn.active {
+      background: #586bdb;
+      color: white;
+    }
   </style>
 </head>
 
@@ -87,12 +117,21 @@
     <section class="intro">
       <p>
         Each word in <strong>Lunarae</strong> carries its own resonance — meaning, feeling, and light.  
-        This tool allows you to <em>explore interactively</em>: click any word to reveal its depth.
+        Click a word to reveal its depth, or filter by category to explore the language’s structure.
       </p>
     </section>
 
     <section id="search">
       <input type="text" id="searchBox" placeholder="Search for a word or meaning...">
+    </section>
+
+    <section id="filters">
+      <button class="filter-btn active" data-type="all">All</button>
+      <button class="filter-btn" data-type="noun">Nouns</button>
+      <button class="filter-btn" data-type="verb">Verbs</button>
+      <button class="filter-btn" data-type="adjective">Adjectives</button>
+      <button class="filter-btn" data-type="particle">Particles</button>
+      <button class="filter-btn" data-type="other">Other</button>
     </section>
 
     <section id="lexicon-list"></section>
@@ -104,6 +143,7 @@
 
   <script>
     let lexiconData = {};
+    let currentFilter = 'all';
 
     // Load JSON and render
     async function loadLexicon() {
@@ -112,12 +152,15 @@
       renderWords(lexiconData);
     }
 
+    // Render the word list
     function renderWords(words) {
       const list = document.getElementById('lexicon-list');
       list.innerHTML = '';
 
       for (let key in words) {
         const w = words[key];
+        if (currentFilter !== 'all' && w.type.toLowerCase() !== currentFilter) continue;
+
         const card = document.createElement('div');
         card.className = 'word-card';
         card.innerHTML = `
@@ -137,17 +180,28 @@
       }
     }
 
-    // Search functionality
+    // Search
     document.getElementById('searchBox').addEventListener('input', (e) => {
       const term = e.target.value.toLowerCase();
       const filtered = Object.fromEntries(
         Object.entries(lexiconData).filter(([key, val]) =>
-          key.toLowerCase().includes(term) ||
-          val.meaning.toLowerCase().includes(term) ||
-          val.etymology.toLowerCase().includes(term)
+          (currentFilter === 'all' || val.type.toLowerCase() === currentFilter) &&
+          (key.toLowerCase().includes(term) ||
+           val.meaning.toLowerCase().includes(term) ||
+           val.etymology.toLowerCase().includes(term))
         )
       );
       renderWords(filtered);
+    });
+
+    // Filter buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentFilter = btn.dataset.type;
+        renderWords(lexiconData);
+      });
     });
 
     loadLexicon();
