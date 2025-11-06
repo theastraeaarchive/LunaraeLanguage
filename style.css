@@ -1,27 +1,90 @@
+/* ✦ Lunarae System Stylesheet ✦
+   The Living Language of the Ahalonai
+   -------------------------------------
+   Palette: Deep indigo, soft silver-blue, ethereal glow
+   Font: Josefin Sans (modern, clean, luminous)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
 body {
   background-color: #0b0f19;
   color: #eaeff7;
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
+  transition: background 0.4s ease;
 }
 
+/* ===== Header ===== */
 header {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
+  background: radial-gradient(circle at top, rgba(140,160,255,0.1), transparent);
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   letter-spacing: 2px;
   color: #b6c9ff;
+  margin-bottom: 0.4rem;
 }
 
 .subtitle {
   color: #9bb2d1;
-  margin-top: -1rem;
+  font-weight: 300;
+  margin-top: 0;
 }
 
+/* ===== Navigation Grid (Homepage) ===== */
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-card {
+  background: rgba(255,255,255,0.04);
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #eaeff7;
+  border-left: 3px solid #586bdb;
+  transition: all 0.3s ease;
+}
+
+.nav-card:hover {
+  background: rgba(255,255,255,0.08);
+  transform: translateY(-4px);
+  border-color: #8ba5ff;
+}
+
+.nav-card h2 {
+  color: #b6c9ff;
+  margin-top: 0;
+}
+
+.nav-card p {
+  color: #cbd3eb;
+  font-size: 0.95rem;
+}
+
+/* ===== Introduction Text (Homepage) ===== */
+.intro {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.7;
+  padding: 1rem 2rem 0;
+  color: #cbd3eb;
+  font-weight: 300;
+}
+
+/* ===== Search Bar (Lexicon) ===== */
 #search {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -29,14 +92,23 @@ h1 {
 
 #searchBox {
   width: 60%;
-  padding: 0.6rem;
+  max-width: 400px;
+  padding: 0.6rem 1rem;
   border: none;
   border-radius: 20px;
   background-color: #141b2b;
   color: #eaeff7;
   font-size: 1rem;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
+#searchBox:focus {
+  outline: none;
+  background-color: #1b2336;
+  box-shadow: 0 0 10px rgba(150, 180, 255, 0.4);
+}
+
+/* ===== Lexicon Entries ===== */
 main#lexicon {
   max-width: 800px;
   margin: 0 auto;
@@ -53,16 +125,52 @@ main#lexicon {
 }
 
 .entry:hover {
-  background: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.07);
+  border-color: #8ba5ff;
 }
 
 .entry h2 {
   margin: 0;
   color: #cfd9ff;
   letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .entry p {
   margin: 0.3rem 0;
   color: #ccd4e8;
+  font-weight: 300;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #8a9cc8;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+footer em {
+  color: #b6c9ff;
+}
+
+/* ===== Responsiveness ===== */
+@media (max-width: 600px) {
+  #searchBox {
+    width: 80%;
+  }
+
+  .nav-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .intro {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
 }
