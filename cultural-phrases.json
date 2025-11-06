@@ -290,5 +290,170 @@
   "noa aenlin~": {
     "meaning": "peace together",
     "usage": "common greeting equivalent to 'peace with you'"
+  }  ,
+  "luaen noa~": {
+    "meaning": "hello / light in peace",
+    "usage": "universal greeting; used any time of day"
+  },
+  "noa luaen~": {
+    "meaning": "goodbye / peace in light",
+    "usage": "farewell; calm and warm"
+  },
+  "noa velain~": {
+    "meaning": "be at peace, gently",
+    "usage": "soft goodbye between close friends"
+  },
+  "ene saen nea~": {
+    "meaning": "I speak to you",
+    "usage": "used to begin a conversation respectfully"
+  },
+  "ene la shael nea~": {
+    "meaning": "I feel your heart",
+    "usage": "said when showing deep empathy or care"
+  },
+  "ene la valira nea~": {
+    "meaning": "I cherish our friendship",
+    "usage": "spoken between close companions"
+  },
+  "luae la shaora nea~": {
+    "meaning": "we hold compassion for you",
+    "usage": "group expression of support"
+  },
+  "ene la velunei nea~": {
+    "meaning": "I comfort you",
+    "usage": "whispered in times of pain or loss"
+  },
+  "ene la saen faen~": {
+    "meaning": "I speak truth",
+    "usage": "declaration of honesty or sincerity"
+  },
+  "ene la saen saren~": {
+    "meaning": "I stop speaking",
+    "usage": "polite way to end one’s turn in dialogue"
+  },
+  "ene la maven noa~": {
+    "meaning": "I give peace",
+    "usage": "used when offering help or blessing"
+  },
+  "ene la aenai noa~": {
+    "meaning": "I breathe peace",
+    "usage": "expression of calm or meditation"
+  },
+  "ene la shael luae~": {
+    "meaning": "I love you all",
+    "usage": "inclusive expression of affection or unity"
+  },
+  "ene la shael nea~": {
+    "meaning": "I love you",
+    "usage": "intimate declaration of affection or closeness"
+  },
+  "ene la shael noa~": {
+    "meaning": "I love peace",
+    "usage": "common philosophical expression"
+  },
+  "ene la shael faen~": {
+    "meaning": "I love truth",
+    "usage": "used in spiritual devotion or scholarly pride"
+  },
+  "ene la velae noa~": {
+    "meaning": "I align in peace",
+    "usage": "simple statement of inner balance"
+  },
+  "ene la shael thura~": {
+    "meaning": "I love your rising / growth",
+    "usage": "praise or encouragement to someone evolving"
+  },
+  "ene la faen nea~": {
+    "meaning": "I trust you",
+    "usage": "spoken with hand over heart; expresses deep trust"
+  },
+  "ene la shael silen~": {
+    "meaning": "I love the stillness",
+    "usage": "quiet phrase of reflection or gratitude"
+  },
+  "ene la saren noa~": {
+    "meaning": "I rest in peace",
+    "usage": "said before sleep or meditation"
+  },
+  "ene la saren luae~": {
+    "meaning": "we rest in light",
+    "usage": "evening communal farewell"
+  },
+  "luaen faen~": {
+    "meaning": "good morning / light in truth",
+    "usage": "greeting at dawn"
+  },
+  "solain noa~": {
+    "meaning": "good evening / peaceful sunset",
+    "usage": "farewell or greeting at dusk"
+  },
+  "mura silen~": {
+    "meaning": "sleep well / quiet rest",
+    "usage": "night-time goodbye"
+  },
+  "ene la maren nea~": {
+    "meaning": "I remember you gently",
+    "usage": "spoken to honor the memory of someone absent"
+  },
+  "ene la shael faen luae~": {
+    "meaning": "I love the truth we share",
+    "usage": "affectionate line between close souls"
+  },
+  "ene la shael norei nea~": {
+    "meaning": "I love you deeply",
+    "usage": "intimate emotional expression"
+  },
+  "ene la shael sharai nea~": {
+    "meaning": "I love you again",
+    "usage": "phrase of reconciliation after conflict"
+  },
+  "ene la sael nea~": {
+    "meaning": "I bless you",
+    "usage": "formal or sacred greeting"
+  },
+  "ene la faen lua~": {
+    "meaning": "I know the light",
+    "usage": "metaphor for understanding or awakening"
+  },
+  "ene la shael noa thurei~": {
+    "meaning": "I love peace above all",
+    "usage": "solemn vow or oath of devotion"
+  },
+  "lua noa velain nea~": {
+    "meaning": "peaceful light be with you",
+    "usage": "universal blessing; both hello and goodbye"
+  },
+  "ene la shael noa falai~": {
+    "meaning": "I love peace still",
+    "usage": "affirmation said after hardship"
+  },
+  "noa shaora luae~": {
+    "meaning": "peace through compassion among us",
+    "usage": "benediction at meals or gatherings"
+  },
+  "ene la shael norei noa~": {
+    "meaning": "I love peace deeply",
+    "usage": "solemn statement of purpose or meditation"
+  },
+  "ene la shael faen velain~": {
+    "meaning": "I love truth gently",
+    "usage": "used when reconciling intellect and empathy"
+  },
+  "ene la shael lua falai~": {
+    "meaning": "I love the light still",
+    "usage": "devotional phrase; said during reflection"
+  },
+  "lua noa senel sharai~": {
+    "meaning": "may light and peace meet again",
+    "usage": "farewell among those who will meet again"
+  },
+  "ene la faen noa velain~": {
+    "meaning": "I understand peace gently",
+    "usage": "phrase of agreement or calm acceptance"
+  },
+  "ene la shael noa soerei~": {
+    "meaning": "I love the softest peace",
+    "usage": "expression of tender affection or spiritual awe"
   }
+
 
