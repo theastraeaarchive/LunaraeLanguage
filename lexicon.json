@@ -2241,6 +2241,230 @@
     "etymology": "sa (negation) + ein (ability)",
     "related": ["thurein", "sa"],
     "example": "ene saerein la vayen~ (I cannot travel)"
+  }  ,
+  "ai": {
+    "type": "particle",
+    "meaning": "yes; it is so",
+    "etymology": "root of affirmation and alignment",
+    "related": ["faen", "faren"],
+    "example": "ai noa~ (yes, peace)"
+  },
+  "sa": {
+    "type": "particle",
+    "meaning": "no; negation or gentle refusal",
+    "etymology": "ancient root of stillness and pause",
+    "related": ["saren", "sael"],
+    "example": "sa noa~ (no, not in peace)"
+  },
+  "nai": {
+    "type": "particle",
+    "meaning": "perhaps; maybe",
+    "etymology": "na (being) + ai (affirmation)",
+    "related": ["ai", "taen"],
+    "example": "nai faen~ (perhaps truth)"
+  },
+  "falai": {
+    "type": "adverb",
+    "meaning": "still; continuing quietly",
+    "etymology": "fa (truth) + lai (persist)",
+    "related": ["silen", "relin"],
+    "example": "lua falai~ (light still shines)"
+  },
+  "sharai": {
+    "type": "adverb",
+    "meaning": "again; once more, in return",
+    "etymology": "sha (heart) + rai (flow)",
+    "related": ["nuvah", "maren"],
+    "example": "ene la aenai sharai~ (I breathe again)"
+  },
+  "murin": {
+    "type": "adverb",
+    "meaning": "always; continually",
+    "etymology": "mura (rest) + in (constant state)",
+    "related": ["noa", "sharen"],
+    "example": "murin la noa~ (peace always)"
+  },
+  "saerin": {
+    "type": "adverb",
+    "meaning": "never; at no time",
+    "etymology": "sa (negation) + erin (time)",
+    "related": ["sa", "eirun"],
+    "example": "saerin la saen noa~ (never speak of peace)"
+  },
+  "aenlin": {
+    "type": "adverb",
+    "meaning": "together; in shared space",
+    "etymology": "aen (breath) + lin (with)",
+    "related": ["luae", "lirune"],
+    "example": "luae la aenlin noa~ (we are together in peace)"
+  },
+  "soain": {
+    "type": "adverb",
+    "meaning": "alone; in solitude",
+    "etymology": "so (singular) + ain (state)",
+    "related": ["ene", "silen"],
+    "example": "ene la soain silen~ (I am alone in stillness)"
+  },
+  "velain": {
+    "type": "adverb",
+    "meaning": "gently; softly, with care",
+    "etymology": "ve (soft) + lain (manner)",
+    "related": ["leina", "sien"],
+    "example": "ene la lira velain~ (I feel gently)"
+  },
+  "thuren": {
+    "type": "adverb",
+    "meaning": "suddenly; with awakening motion",
+    "etymology": "thura (rise) + en (moment)",
+    "related": ["thura", "narai"],
+    "example": "thuren la thura lua~ (the light rises suddenly)"
+  },
+  "norei": {
+    "type": "adverb",
+    "meaning": "deeply; inwardly, in full feeling",
+    "etymology": "nor (within) + ei (extent)",
+    "related": ["eirua", "relin"],
+    "example": "ene la shael norei~ (I love deeply)"
+  },
+  "soerei": {
+    "type": "adverb",
+    "meaning": "softly; most tenderly",
+    "etymology": "so (soft) + rei (most)",
+    "related": ["soiren", "velira"],
+    "example": "ene la saen soerei~ (I speak softly)"
+  },
+  "farenai": {
+    "type": "adverb",
+    "meaning": "truly; with sincerity and alignment",
+    "etymology": "faren (truth) + ai (state)",
+    "related": ["faen", "farae"],
+    "example": "ene la saen farenai~ (I speak truly)"
+  },
+  "thurei": {
+    "type": "adverb",
+    "meaning": "highly; greatly, with reverence",
+    "etymology": "thura (rise) + ei (intensifier)",
+    "related": ["thura", "aurea"],
+    "example": "ene la shael thurei~ (I love greatly)"
+  },
+  "norain": {
+    "type": "adverb",
+    "meaning": "later; after, following soon",
+    "etymology": "norai (future) + in (time)",
+    "related": ["norai", "rai"],
+    "example": "norain la mura~ (rest later)"
+  },
+  "eirunai": {
+    "type": "adverb",
+    "meaning": "before; earlier, in past",
+    "etymology": "eirun (past) + ai (state)",
+    "related": ["eirun", "taen"],
+    "example": "eirunai la aeni~ (I remembered before)"
+  },
+  "eian": {
+    "type": "adverb",
+    "meaning": "now; at this moment",
+    "etymology": "ei (see) + an (present)",
+    "related": ["sharen", "aenel"],
+    "example": "eian la noa~ (peace now)"
+  },
+  "norin": {
+    "type": "adverb",
+    "meaning": "soon; shortly, approaching",
+    "etymology": "no (forward) + rin (approach)",
+    "related": ["norai", "thura"],
+    "example": "norin la serai~ (dawn soon)"
+  },
+  "saenai": {
+    "type": "particle",
+    "meaning": "please; a gentle request",
+    "etymology": "saen (speak) + ai (soft intent)",
+    "related": ["saen", "velain"],
+    "example": "saenai noa~ (please, peace)"
+  },
+  "haen": {
+    "type": "particle",
+    "meaning": "thank you; gratitude expressed as breath",
+    "etymology": "ha (life) + en (flow)",
+    "related": ["shaora", "noa"],
+    "example": "haen lua~ (thank you, light)"
+  },
+  "aen": {
+    "type": "particle",
+    "meaning": "yes, with feeling; breath of agreement",
+    "etymology": "aen (breath)",
+    "related": ["ai", "aeni"],
+    "example": "aen noa~ (yes, peace)"
+  },
+  "shaen": {
+    "type": "particle",
+    "meaning": "thank you deeply; heartfelt thanks",
+    "etymology": "sha (heart) + en (flow)",
+    "related": ["haen", "shaora"],
+    "example": "shaen noa~ (thank you deeply, peace)"
+  },
+  "sharen": {
+    "type": "particle",
+    "meaning": "you’re welcome; shared gratitude",
+    "etymology": "sha (heart) + ren (exchange)",
+    "related": ["shaen", "haen"],
+    "example": "sharen noa~ (you are welcome in peace)"
+  },
+  "maren": {
+    "type": "particle",
+    "meaning": "sorry; sorrow with movement toward peace",
+    "etymology": "ma (release) + ren (flow)",
+    "related": ["saren", "shaora"],
+    "example": "maren noa~ (sorry, peace)"
+  },
+  "faenai": {
+    "type": "particle",
+    "meaning": "truly; indeed, it is so",
+    "etymology": "faen (truth) + ai (state)",
+    "related": ["faren", "farae"],
+    "example": "faenai lua~ (truly, light)"
+  },
+  "noan": {
+    "type": "particle",
+    "meaning": "okay; all is balanced",
+    "etymology": "noa (peace) + n (state)",
+    "related": ["noa", "relin"],
+    "example": "noan~ (okay, all is well)"
+  },
+  "aenor": {
+    "type": "particle",
+    "meaning": "yes, with soul; full alignment and acceptance",
+    "etymology": "aen (breath) + or (union)",
+    "related": ["aen", "ai"],
+    "example": "aenor noa~ (yes, truly in peace)"
+  },
+  "saor": {
+    "type": "particle",
+    "meaning": "no, with care; gentle refusal or boundary",
+    "etymology": "sa (no) + or (union)",
+    "related": ["sa", "saren"],
+    "example": "saor noa~ (no, but in peace)"
+  },
+  "lairen": {
+    "type": "particle",
+    "meaning": "hmm; thoughtful pause",
+    "etymology": "lai (linger) + ren (motion)",
+    "related": ["silen", "aeni"],
+    "example": "lairen~ (hmm...)"
+  },
+  "luaen": {
+    "type": "particle",
+    "meaning": "greeting; hello / light in peace",
+    "etymology": "lua (light) + en (breath)",
+    "related": ["noa", "shaora"],
+    "example": "luaen noa~ (hello, peace and light)"
+  },
+  "noaen": {
+    "type": "particle",
+    "meaning": "farewell; peace in light",
+    "etymology": "noa (peace) + en (flow)",
+    "related": ["lua", "falai"],
+    "example": "noaen lua~ (farewell, light)"
   }
 
 }
