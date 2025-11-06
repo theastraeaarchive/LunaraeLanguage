@@ -1,57 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lunarae Cultural Phrases | Astraea Archive</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lunarae • Cultural Phrases</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <nav>
+  <nav class="site-nav">
     <a href="index.html">Home</a>
     <a href="lexicon.html">Lexicon</a>
-    <a href="phrases.html" class="active">Phrases</a>
+    <a class="active" href="phrases.html">Phrases</a>
   </nav>
 
-  <main>
-    <h1 class="title">✨ Cultural Phrases of Lunarae ✨</h1>
-    <p class="intro">Each phrase reflects the emotional and spiritual language of the Ahalonai — spoken as living light, not just words.</p>
+  <main class="container">
+    <header class="page-header">
+      <h1 class="title">Cultural Phrases</h1>
+      <p class="subtitle">living expressions of the Ahalonai — searchable, sortable, and copyable.</p>
+    </header>
 
-    <input type="text" id="search" placeholder="Search for a phrase or meaning..." class="search-input">
+    <!-- Toolbar (identical structure to lexicon) -->
+    <section class="toolbar">
+      <div class="toolbar-left">
+        <div class="search-wrap">
+          <input id="search" class="search-input" type="text" placeholder="Search phrase, meaning, or usage…"/>
+          <button id="clearSearch" class="btn icon-btn" aria-label="Clear search" title="Clear">
+            ✕
+          </button>
+        </div>
+        <div class="filters">
+          <!-- Category filter is optional; auto-populates if your JSON has "category" -->
+          <label class="select-wrap">
+            <span class="select-label">Category</span>
+            <select id="catFilter">
+              <option value="">All</option>
+            </select>
+          </label>
+        </div>
+      </div>
 
-    <div id="phrases-container" class="entries"></div>
+      <div class="toolbar-right">
+        <button id="sortToggle" class="btn">
+          Sort: <span id="sortLabel">A → Z</span>
+        </button>
+        <span class="count-badge"><span id="count">0</span> results</span>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="grid" class="card-grid" aria-live="polite"></section>
   </main>
 
+  <template id="cardTemplate">
+    <article class="card entry-card">
+      <div class="card-head">
+        <h3 class="entry-key phrase-text"></h3>
+        <div class="head-actions">
+          <button class="btn icon-btn copy-btn" title="Copy phrase" aria-label="Copy phrase">⧉</button>
+          <button class="btn icon-btn expand-btn" title="Show details" aria-label="Toggle details">▾</button>
+        </div>
+      </div>
+
+      <div class="meta-row">
+        <span class="badge badge-type">phrase</span>
+        <!-- category badge inserted here if present -->
+        <span class="badge badge-cat" hidden></span>
+      </div>
+
+      <p class="meaning"></p>
+
+      <div class="details" hidden>
+        <div class="detail-row">
+          <span class="detail-label">Usage</span>
+          <p class="usage"></p>
+        </div>
+      </div>
+    </article>
+  </template>
+
   <script>
-    async function loadPhrases() {
-      const res = await fetch('cultural-phrases.json');
-      const data = await res.json();
-      const container = document.getElementById('phrases-container');
-      const search = document.getElementById('search');
+    const state = {
+      data: {},
+      list: [],
+      filterText: '',
+      filterCat: '',
+      ascending: true,
+    };
 
-      const render = (filter = '') => {
-        container.innerHTML = '';
-        Object.entries(data).forEach(([phrase, info]) => {
-          const lower = (phrase + info.meaning + info.usage).toLowerCase();
-          if (!lower.includes(filter.toLowerCase())) return;
+    const els = {
+      search: null,
+      clear: null,
+      cat: null,
+      grid: null,
+      sort: null,
+      sortLabel: null,
+      count: null,
+      cardTpl: null,
+    };
 
-          const entry = document.createElement('div');
-          entry.className = 'entry';
+    init();
 
-          entry.innerHTML = `
-            <div class="phrase-text">${phrase}</div>
-            <div class="phrase-meaning">${info.meaning}</div>
-            <div class="phrase-usage">${info.usage}</div>
-          `;
-          container.appendChild(entry);
-        });
-      };
+    async function init() {
+      els.search = document.getElementById('search');
+      els.clear = document.getElementById('clearSearch');
+      els.cat = document.getElementById('catFilter');
+      els.grid = document.getElementById('grid');
+      els.sort = document.getElementById('sortToggle');
+      els.sortLabel = document.getElementById('sortLabel');
+      els.count = document.getElementById('count');
+      els.cardTpl = document.getElementById('cardTemplate');
 
-      search.addEventListener('input', e => render(e.target.value));
+      await loadData();
+      hydrateCategoryFilter();
+      bindUI();
       render();
     }
 
-    loadPhrases();
+    async function loadData() {
+      const res = await fetch('cultural-phrases.json');
+      const json = await res.json();
+      state.data = json;
+
+      // normalize to a list with {key, meaning, usage, category?}
+      state.list = Object.entries(json).map(([phrase, info]) => ({
+        key: phrase,
+        meaning: info.meaning || '',
+        usage: info.usage || '',
+        category: info.category || '',
+      }));
+    }
+
+    function hydrateCategoryFilter() {
+      // build unique categories if present
+      const cats = Array.from(new Set(
+        state.list
+          .map(x => (x.category || '').trim())
+          .filter(Boolean)
+      )).sort((a,b)=>a.localeCompare(b));
+
+      if (cats.length === 0) {
+        // Hide the control if unused
+        document.querySelector('.filters').style.display = 'none';
+        return;
+      }
+      for (const c of cats) {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        els.cat.appendChild(opt);
+      }
+    }
+
+    function bindUI() {
+      els.search.addEventListener('input', (e) => {
+        state.filterText = e.target.value.trim();
+        render();
+      });
+
+      els.clear.addEventListener('click', () => {
+        els.search.value = '';
+        state.filterText = '';
+        render();
+        els.search.focus();
+      });
+
+      els.cat.addEventListener('change', (e) => {
+        state.filterCat = e.target.value;
+        render();
+      });
+
+      els.sort.addEventListener('click', () => {
+        state.ascending = !state.ascending;
+        els.sortLabel.textContent = state.ascending ? 'A → Z' : 'Z → A';
+        render();
+      });
+    }
+
+    function render() {
+      const q = state.filterText.toLowerCase();
+      const cat = (state.filterCat || '').toLowerCase();
+
+      let rows = state.list.filter(entry => {
+        const hay = (entry.key + ' ' + entry.meaning + ' ' + entry.usage + ' ' + (entry.category || '')).toLowerCase();
+        const matchText = !q || hay.includes(q);
+        const matchCat = !cat || (entry.category || '').toLowerCase() === cat;
+        return matchText && matchCat;
+      });
+
+      rows.sort((a, b) =>
+        state.ascending
+          ? a.key.localeCompare(b.key)
+          : b.key.localeCompare(a.key)
+      );
+
+      els.grid.innerHTML = '';
+      els.count.textContent = rows.length;
+
+      for (const row of rows) {
+        const node = els.cardTpl.content.cloneNode(true);
+        node.querySelector('.phrase-text').textContent = row.key;
+        node.querySelector('.meaning').textContent = row.meaning;
+
+        // category badge if present
+        const catBadge = node.querySelector('.badge-cat');
+        if (row.category) {
+          catBadge.textContent = row.category;
+          catBadge.hidden = false;
+        }
+
+        // usage
+        node.querySelector('.usage').textContent = row.usage || '—';
+
+        // copy button
+        node.querySelector('.copy-btn').addEventListener('click', async () => {
+          try {
+            await navigator.clipboard.writeText(row.key);
+            flash(node, 'Copied!');
+          } catch {
+            alert('Copy failed');
+          }
+        });
+
+        // expand/collapse
+        const details = node.querySelector('.details');
+        const expandBtn = node.querySelector('.expand-btn');
+        expandBtn.addEventListener('click', () => {
+          const isHidden = details.hasAttribute('hidden');
+          if (isHidden) {
+            details.removeAttribute('hidden');
+            expandBtn.textContent = '▴';
+            expandBtn.title = 'Hide details';
+          } else {
+            details.setAttribute('hidden', '');
+            expandBtn.textContent = '▾';
+            expandBtn.title = 'Show details';
+          }
+        });
+
+        els.grid.appendChild(node);
+      }
+    }
+
+    function flash(nodeFrag, msg) {
+      // quick toast-ish feedback inside the card head
+      const host = els.grid.lastElementChild || document.body;
+      const toast = document.createElement('div');
+      toast.className = 'inline-toast';
+      toast.textContent = msg;
+      document.body.appendChild(toast);
+      setTimeout(()=>toast.classList.add('show'), 10);
+      setTimeout(()=>toast.classList.remove('show'), 1300);
+      setTimeout(()=>toast.remove(), 1700);
+    }
   </script>
+
+  <style>
+    /* tiny inline styles for the toast; everything else uses your existing style.css */
+    .inline-toast{
+      position: fixed;
+      bottom: 1.25rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(10px);
+      background: rgba(0,0,0,.65);
+      color: #fff;
+      padding: .5rem .75rem;
+      border-radius: .5rem;
+      font-size: .9rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .2s, transform .2s;
+      z-index: 50;
+    }
+    .inline-toast.show{
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+  </style>
 </body>
 </html>
